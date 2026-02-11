@@ -1,1 +1,0 @@
-* Aquí va bitacora ia
