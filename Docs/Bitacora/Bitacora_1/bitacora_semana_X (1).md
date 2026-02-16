@@ -24,4 +24,4 @@ Explica cómo se resolvió.
 - ⬜ Muy perdido
 - ⬜ Con dudas
 - ⬜ Entendiendo
-- ⬜ Dominando
+- ✅ Dominando
