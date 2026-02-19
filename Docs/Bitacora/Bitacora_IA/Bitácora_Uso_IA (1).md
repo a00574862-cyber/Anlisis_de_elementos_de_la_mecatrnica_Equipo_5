@@ -91,7 +91,7 @@ Tuvimos la sesion de introducción al curso, entender que vamos a ver y hacer, c
 **Prompt 2 (opcional):**
 ```
 
-(pegar prompt aquí)
+"Explícame cómo hacer un diagrama de bloques para intergrar elementos mecatronicos"
 
 ```
 
@@ -116,7 +116,17 @@ Conocer de qué va a tratar la materia, informarnos sobre la situación problema
 Empezamos a familiarizarnos con GitHub: creamos un repositorio y dividimos todo en semanas para poder tener un orden y organización. También comenzamos a entender cómo funciona el programa de simulación LOGO!.
 
 ```
-
+Gemini dijo para el prompt 2
+Para integrar un sistema mecatrónico en un diagrama de bloques, sigue este esquema lineal y lógico:
+Entrada (Referencia): El valor deseado (ej. "fijar velocidad a 100 rpm").
+Controlador: El "cerebro" (PLC, Arduino) que procesa el error.
+Actuador: El "músculo" (motor, cilindro) que ejecuta la acción.
+Sensor: El "ojo" que mide el estado real y envía la señal de vuelta (Retroalimentación) al inicio para corregir desviaciones.
+Estructura Visual
+Bloques: Componentes o procesos.
+Flechas: Flujo de señales (voltaje, datos, fuerza).
+Círculos (Nodos): Puntos de comparación o suma de señales.
+¿Quieres que apliquemos este resumen a un ejemplo concreto, como un brazo robótico o un sistema de temperatura?
 ---
 
 ## 6️⃣ Evaluación crítica del equipo (OBLIGATORIA)
@@ -125,10 +135,11 @@ Empezamos a familiarizarnos con GitHub: creamos un repositorio y dividimos todo 
 ```
 Fue muy util ver que corrigiera todas las faltas de ortografica que en ocaciones no somos concientes que cometemos.
 ```
+Me sirvio mucho para poder tener un mejor entendimiento del como organizar un diagrama de bloques para la representación del reto.
+```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
-
 Todo estubo bien.
 ```
 
@@ -143,7 +154,7 @@ Marca y explica:
 ```
 Se adapto ligeramente ya que la IA nos daba algunas palabras con tecnisismos que no entendiamos entonces preferimos omitirlo y ponerlo a "nuestro modo", además de que siguio fielmente lo que teniamos originalmente.
 ```
-
+Tomamos de referencia inicial lo mostrado por la IA, pero aun así agregandole una investigación dentro del equipo del como realizarlo de una forma mas adaptada a nuestras necesidades.
 ---
 
 ## 7️⃣ Verificación humana (OBLIGATORIA)
@@ -151,9 +162,9 @@ Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
 - ⬜ Prueba en el sistema real  
-- ⬜ Discusión en equipo  
+- ✅ Discusión en equipo  
 - ⬜ Consulta con el profesor  
-- ✅ Otra: ______________________  
+- ⬜ Otra: ______________________  
 
 **Evidencia o explicación breve de la verificación:**
 ```
@@ -173,7 +184,7 @@ Reflexiona brevemente:
 ```
 Nos ahorro bastante tiempo de estar comprobando todo el texto en busca de errores ortograficos que en ocaciónes hasta desconocemos.
 ```
-
+Nos ayudo a tener una mejor comprensión de lo que teníamos que hacer, el formato, y los tipos de datos que tendríamos que clasificar para el diagrama.
 ---
 
 ## 9️⃣ Aprendizaje del equipo sobre el uso de IA
