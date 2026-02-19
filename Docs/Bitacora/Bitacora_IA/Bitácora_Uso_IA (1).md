@@ -2,10 +2,10 @@
 # Bitácora de Uso de Inteligencia Artificial (IA)
 
 ## Información general
-- **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
-- **Fecha:**  
+- **Equipo:**  5
+- **Integrantes:**  Karol Cabrera, Alexa Ortiz, Tadeo Garay, Andrés Sanchéz
+- **Semana / Hito:** Semana 1/ H1/ Bitacora 1  
+- **Fecha:** 2/18/2026
 
 ---
 
@@ -13,7 +13,7 @@
 Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
-- ⬜ Sí se utilizó IA de forma puntual  
+- ✅ Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
@@ -33,8 +33,7 @@ Ejemplos:
 **Descripción del objetivo:**
 ```
 
-(escribir aquí)
-
+Utilizamos la IA para corregir errores ortograficos y de redacción.
 ```
 
 ---
@@ -44,7 +43,7 @@ Marca las que apliquen:
 
 - ⬜ ChatGPT  
 - ⬜ Copilot  
-- ⬜ Otra (especificar): ______________________  
+- ✅ Otra (especificar): Gemini  
 
 ---
 
@@ -56,7 +55,36 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 ```
 
-(pegar prompt aquí)
+me ayudas a corregir todos las faltas de ortografia de este texto:
+
+# Bitácora – Semana 1
+
+## Tema de la semana
+Introducción a la mecatronica.
+
+## Actividades realizadas
+Conocer de que va a tratar la materia, informarnos sobre la situación problema y sobre lo que estaremos trabajando, conocer para que funciona la mecatronica, en que esta dividida y orientarnos sobre el rumbo de la carrera.
+Empezamos a familiarizarnos con GitHub, hicimos un repositorio y dividimos todo en semanas para poder tener un orden y organización. También comenzamos a entender como funciona el programa de simulación LOGO.
+
+## Decisiones de ingeniería
+| Decisión | Alternativas | Justificación |
+|--------|-------------|---------------|
+
+## Problema técnico encontrado
+Durante el aprendizaje para utilisar la plataforma de Github tubimos varios problemas debido a que en el equipo no estabamos familiarizados con el sistema, o como es que funcionaba, por lo que al momento de crear las carpetas donde estaremos documentando nuestro progreso del proyecto, hubo complicaciones ya que o no nos salian como queriamos o simplemente no encontrabamos bien la manera de hacerlo.
+
+## Solución aplicada
+Preguntando a compañeros que entendieran más acerca del funcionamiento de la pagina, además de preguntar al profesor alguna duda, el estaba al pendiente de que estubieramos trabajando bien y seguiamos sus indicaciones cuando aclaraba sobre como hacer x cosa, logrando tener un conocimiento más solido en Github, aunque seguimos siendo unos principiantes.
+
+## Conexión con el curso
+¿Qué concepto de MR2022 aplicaste esta semana?
+Tuvimos la sesion de introducción al curso, entender que vamos a ver y hacer, como vamos a trabajar, conocer nuestros equipos de trabajo y sobre todo las aplicaciones en las que estaremos trabajando como GitHub, que se relaciona con el curso ya que en esta pagina estaremos documentando todo nuestro proceso a lo largo de las semanas, para tener una organización y que todo sea más "ingenieril", por lo que es crucial empezar a entender el funcionamiento y como vamos a estar documentando todo el pro eso del proyecto conforme pasan las semanas.
+
+## Autoevaluación
+- ⬜ Muy perdido
+- ⬜ Con dudas
+- ⬜ Entendiendo
+- ✅ Dominando
 
 ```
 
@@ -74,7 +102,18 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ```
 
-(resumen o extracto aquí)
+Gemini dijo
+¡Claro que sí! Con gusto te ayudo a pulir tu bitácora para que se vea mucho más profesional y a completar esa tabla de decisiones.
+
+Aquí tienes el texto corregido (ortografía, acentuación y redacción técnica) y una propuesta para la sección de ingeniería.
+
+Bitácora – Semana 1
+Tema de la semana
+Introducción a la mecatrónica.
+
+Actividades realizadas
+Conocer de qué va a tratar la materia, informarnos sobre la situación problema y sobre lo que estaremos trabajando; conocer para qué funciona la mecatrónica, en qué está dividida y orientarnos sobre el rumbo de la carrera.
+Empezamos a familiarizarnos con GitHub: creamos un repositorio y dividimos todo en semanas para poder tener un orden y organización. También comenzamos a entender cómo funciona el programa de simulación LOGO!.
 
 ```
 
@@ -84,30 +123,25 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ### 6.1 ¿Qué parte fue útil?
 ```
-
-(escribir aquí)
-
+Fue muy util ver que corrigiera todas las faltas de ortografica que en ocaciones no somos concientes que cometemos.
 ```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-(escribir aquí)
-
+Todo estubo bien.
 ```
 
 ### 6.3 Decisión final del equipo
 Marca y explica:
 
 - ⬜ Se utilizó tal como lo propuso la IA  
-- ⬜ Se utilizó parcialmente (adaptado)  
+- ✅Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
 **Justificación técnica de la decisión:**
 ```
-
-(escribir aquí)
-
+Se adapto ligeramente ya que la IA nos daba algunas palabras con tecnisismos que no entendiamos entonces preferimos omitirlo y ponerlo a "nuestro modo", además de que siguio fielmente lo que teniamos originalmente.
 ```
 
 ---
@@ -119,13 +153,11 @@ Indica **cómo se verificó** la información antes de usarla:
 - ⬜ Prueba en el sistema real  
 - ⬜ Discusión en equipo  
 - ⬜ Consulta con el profesor  
-- ⬜ Otra: ______________________  
+- ✅ Otra: ______________________  
 
 **Evidencia o explicación breve de la verificación:**
 ```
-
-(escribir aquí)
-
+Se verifico leyendo completamente de nuevo el texto para comprobar que no tuviera incoherencias o cosas que no hayamos dicho que hiciera.
 ```
 
 ---
@@ -139,9 +171,7 @@ Reflexiona brevemente:
 - ¿Mejoró la calidad del resultado?
 
 ```
-
-(escribir aquí)
-
+Nos ahorro bastante tiempo de estar comprobando todo el texto en busca de errores ortograficos que en ocaciónes hasta desconocemos.
 ```
 
 ---
@@ -150,9 +180,7 @@ Reflexiona brevemente:
 ¿Qué aprendieron sobre **cómo usar (o no usar)** IA en un proyecto de ingeniería?
 
 ```
-
-(escribir aquí)
-
+Aprendimos que tenemos que usarla con cuidado y sobre todo verificar a conciencia todo lo que nos da para saber que todo es veridico y no esta inventando o agregando palabras de más.
 ```
 
 ---
@@ -165,5 +193,9 @@ Declaramos que:
 
 **Firma del equipo (nombres):**
 ```
+Karol Cabrera
+Alexa Ortiz
+Tadeo Garay
+Andrés Sánchez
 
 
