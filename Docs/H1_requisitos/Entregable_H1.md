@@ -27,7 +27,8 @@ Realizaremos un prototipo de dimensiones de 1 metro de ancho con 2 de largo impl
 - La interfaz de operación debe de ser verificada en su totalidad con respecto al tiempo de reacción y buen control sobre el modelo físico de la cortina, esto para comprobar una ejecución correcta de movimientos y asegurar la efectividad de detección de obstáculos. De esta manera se pueden evitar accidentes y garantizar funcionalidad de la cortina industrial para satisfacer al usuario.
 
 ## Diagrama de bloques
-(Inserta imagen o esquema)
+
+https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/ad3c9c6c1bcc4a4de8380cf092a1d6d8085390b8/Evidence/Imagenes/Diagrama%20de%20bloques%20H1.jpeg
 
 ## Conclusiones del análisis
 Breve reflexión técnica.
