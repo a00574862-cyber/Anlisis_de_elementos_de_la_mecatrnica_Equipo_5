@@ -31,7 +31,6 @@ Realizaremos un prototipo de dimensiones de 1 metro de ancho con 2 de largo impl
 ![image alt](https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/ad3c9c6c1bcc4a4de8380cf092a1d6d8085390b8/Evidence/Imagenes/Diagrama%20de%20bloques%20H1.jpeg)
 
 ## Conclusiones del análisis
-## Conclusiones del análisis
 
 El análisis del sistema permitió definir de manera clara los requerimientos funcionales, técnicos y de seguridad necesarios para la automatización de una cortina industrial. A partir de estos requerimientos se estableció una arquitectura basada en el PLC **Siemens LOGO 12/24 RCE**, capaz de integrar sensores de proximidad, sensores de posición y actuadores de manera segura y confiable.
 
