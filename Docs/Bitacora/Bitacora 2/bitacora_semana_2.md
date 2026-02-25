@@ -7,8 +7,12 @@ Sensores
 Lo que se realizo en la semana, fue empezar con el control y utilizar un relevador programable (LOGO) para integrar nuestro kit de seis ensores digitales. Se realizo todo mediante draw.io, configurando una fuente de poder para alimentar tanto al LOGO como a los sensores, organizando el cableado mediante termiales protegidas y comunes, primeramente se realiza en el software draw.io para entender todas las conexiones y posteriormente lo realizamos en fisico, con los materiales dados durante clases pasadas. 
 
 ## Decisiones de ingeniería
+
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
+| :--- | :--- | :--- |
+| **Uso de sensores digitales** | Sensores analógicos |Para los límites de la cortina, los estadios son binarios como apagado y encendido, por lo que sensores digitales son más fáciles de programar en un LOGO. |
+| **Implementar terminales** | Conexiones directa a la fuente de voltaje | Se separó la línea de potencia para evitar que en un cortocircuito en un sensor dañe la alimentación del LOGO. |
+| **Selección de sensor óptico para seguridad (S3)** | Sensor capacitivo o mecánico | Para detercar poersonas sin contacto fisico y a una buena distancia, el sensor óptico nos da una respuesta más rapida y segura. |
 
 ## Problema técnico encontrado
 Primeramete el problema que enfrentamos fue que no conociamos el software en el que estabamos trabajando, por lo que al principio estabamos perdidos sobre como conectar los sensores, la fuente de voltaje, el LOGO.
