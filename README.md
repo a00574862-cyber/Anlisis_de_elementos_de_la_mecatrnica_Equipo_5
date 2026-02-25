@@ -30,9 +30,9 @@ El sistema se considera un "éxito" cuando:
 -Interoperabilidad: Permite el cambio de parámetros técnicos (tiempos y velocidades) solo a usuarios con nivel de Supervisor, manteniendo la trazabilidad del conteo de ciclos.
 
 ## 3) Requerimientos (mínimos)
-- Funcionales: ...
-- Seguridad: ...
-- Económicos: ...
+- Funcionales: Mecánismo para subir o bajar * Identificar obstáculos en el rango de movimiento * Identificar posición actual de la cortina * Actuar conforme a límites máximo/mínimo, velocidades y tiempos controlados.
+- Seguridad: Botón de emergencia para casos excepcionales * Interfaz de operación corroborada con sistema físico * Identificación de obstáculos y paro automático.
+- Técnicos: Existencia de una interfaz de operación * Corriente continua de 24V/14.5A 350W * Diseño de interfaz fácil de manejar con botones para cada acción * 2 tipos de manejo de la interfaz: Automático y Manual * 2 tipos de usuario en la interfaz: Operador y Supervisor * Uso de LOGO Siemens V8
 
 ## 4) Arquitectura del sistema (diagrama de bloques)
 ![Diagrama de bloques]
