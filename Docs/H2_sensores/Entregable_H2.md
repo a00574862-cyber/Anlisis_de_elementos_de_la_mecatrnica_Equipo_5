@@ -14,9 +14,21 @@
 | Actuador | Función | Tipo | Justificación |
 |--------|---------|------|---------------|
 
-## Riesgos y consideraciones
+r## Riesgos y consideraciones (Sensores)
+
 ¿Qué podría fallar y cómo se mitiga?
 
+1. **Sensores S1, S2, S3**:
+    * **Riesgo**: El polvo, la humedad en una planta industrial pueden obstruir el lente del sensor óptico ($S3$) o afectar la sensibilidad del capacitivo ($S1$), provocando falsos disparos o falta de detección.
+    * **Mitigación**: Seleccionar sensores con un grado de protección **IP67** o superior, los cuales están diseñados para resistir ambientes con partículas y agua. Se debe programar un plan de limpieza periódica para los lentes de los sensores ópticos.
+
+2. **Inestabilidad de Señal por Ruido Eléctrico**:
+    * **Riesgo**: Las señales digitales de $24 \text{V}$ pueden presentar "ruido" o señales flotantes si no comparten una referencia de tierra común o si hay motores grandes cerca.
+    * **Mitigación**: Implementar el nodo común de tierra ($M$) en las terminales $C4$-$C6$ como se definió en el diagrama de Draw.io, asegurando una referencia sólida para todas las entradas del LOGO.
+
+3. **Cortocircuito en el Cableado de Sensores**:
+    * **Riesgo**: Un daño físico en el cable de un sensor (por ejemplo, por vibración mecánica) podría provocar un corto que apague todo el sistema de control.
+    * **Mitigación**: Utilizar las terminales de distribución con protección ($C1$-$C3$) diseñadas en el esquema eléctrico, separando la alimentación de los sensores de la alimentación principal del CPU del LOGO.
 
 
 
