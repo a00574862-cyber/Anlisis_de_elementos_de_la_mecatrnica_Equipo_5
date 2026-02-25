@@ -50,18 +50,22 @@
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 
+La prueba se realizo en la superficie de arriba de una mesa.
+
  | Distancia (mm) | LED (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? | Comentarios |
 | :---: | :---: | :---: | :---: | :--- |
-| 0 |  |  |  |  |
-| 2 |  |  |  |  |
-| 4 |  |  |  |  |
-| 6 |  |  |  |  |
-| 8 |  |  |  |  |
-| 10 |  |  |  |  |
-| 12 |  |  |  |  |
-| 14 |  |  |  |  |
-| 16 |  |  |  |  |
+| 0 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 1 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 2 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 3 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 4 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 5 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 6 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
+| 7 | ON | - | No | Estuvo muy variable el LED, se apagaba y prendia con pequeños movimientos. |
+| 8 | ON | - | No | No prendio el foco LED|
 
+**Nota**
+En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos otorgo otro pero por falta de tiempo 
 ------------------------------------------------------------------------
 
 # 4️⃣ Comparación vs Especificación del Fabricante
