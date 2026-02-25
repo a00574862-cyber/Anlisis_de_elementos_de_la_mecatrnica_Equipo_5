@@ -35,14 +35,14 @@
 
   | Material | ¿Detecta? (Sí/No) | Distancia mín. estable (mm) | Distancia máx. estable (mm) | Distancia promedio (mm) | Zona inestable (mm) | Falsas detecciones | Observaciones técnicas |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Acero** | C I | C(0mm) I(0mm) | C(6mm) I(5mm) | C(4mm) I(3mm) | C(7mm) I(5mm) | No | No |
-| **Aluminio** | C I | C(0mm) I(0mm) | C(8mm) I(5mm) | C(4mm) I(3mm) | C(8mm) I(6mm) | No | No |
-| **Cobre** | C I | C(0mm) I(0mm) | C(5mm) I(2mm) | C(4mm) I(1mm) | C(6mm) I(3mm) | No | No |
-| **Plástico** | C | C(0mm) | C(4mm) | C(2mm) | C(5mm) | No | No |
-| **Madera** | C | C(0mm) | C(6mm) | C(5mm) | C(7mm) | No | No |
-| **Vidrio** | C | C(0mm) | C(2mm) | C(1mm) | C(3mm) | No | No |
-| **Agua** | C | C(0mm) | C(8mm) | C(6mm) | C(9mm) | No | No |
-| **Imán** | C I M | C(0mm) C(0mm) M(0mm) | C(8mm) I(4mm) M(40mm) | C(7mm) I(3mm) M(35mm) | C(9mm) I(5mm) M(45mm) | No | No |
+| **Acero** | C I | C(0mm) I(0mm) | C(6mm) I(5mm) | C(4mm) I(3mm) | C(6.2mm) I(5.1mm) | No | No |
+| **Aluminio** | C I | C(0mm) I(0mm) | C(8mm) I(5mm) | C(4mm) I(3mm) | C(8.1mm) I(5.1mm) | No | No |
+| **Cobre** | C I | C(0mm) I(0mm) | C(5mm) I(2mm) | C(4mm) I(1mm) | C(5.1mm) I(2.1mm) | No | No |
+| **Plástico** | C | C(0mm) | C(4mm) | C(2mm) | C(4.1mm) | No | No |
+| **Madera** | C | C(0mm) | C(6mm) | C(5mm) | C(6.1mm) | No | No |
+| **Vidrio** | C | C(0mm) | C(2mm) | C(1mm) | C(2.2mm) | No | No |
+| **Agua** | C | C(0mm) | C(8mm) | C(6mm) | C(8.1mm) | No | No |
+| **Imán** | C I M | C(0mm) C(0mm) M(0mm) | C(8mm) I(4mm) M(40mm) | C(7mm) I(3mm) M(35mm) | C(8.2mm) I(4.1mm) M(4mm) | No | No |
 ------------------------------------------------------------------------
 
 # 3️⃣ Prueba de Distancia Incremental
