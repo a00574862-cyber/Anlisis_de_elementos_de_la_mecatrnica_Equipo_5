@@ -35,7 +35,8 @@ El sistema se considera un "éxito" cuando:
 - Técnicos: Existencia de una interfaz de operación * Corriente continua de 24V/14.5A 350W * Diseño de interfaz fácil de manejar con botones para cada acción * 2 tipos de manejo de la interfaz: Automático y Manual * 2 tipos de usuario en la interfaz: Operador y Supervisor * Uso de LOGO Siemens V8
 
 ## 4) Arquitectura del sistema (diagrama de bloques)
-![Diagrama de bloques]
+<img width="499" height="585" alt="image" src="https://github.com/user-attachments/assets/ef4ff805-87a6-44fc-9976-6efe72414dd1" />
+
 
 ## 5) Componentes seleccionados
 ### Sensores
