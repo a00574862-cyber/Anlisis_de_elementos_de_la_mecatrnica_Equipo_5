@@ -4,8 +4,8 @@
 
 ## Equipo 5
 - Karol Daniel Cabrera Ramírez (A005747991) - @KarolDCabrera
-- Carlos Tadeo Garay Duran (A0XXXXX) - @
-- Andres Alejandro Sanchez Rabago (A0XXXXXX)- @
+- Carlos Tadeo Garay Durán (A00574676) - @
+- Andres Alejandro Sanchez Rabago (A0)- @
 - Alexa Ortiz Saldaña (A00573382)- @ibukiaos
 
 ## 1) Descripción del problema
