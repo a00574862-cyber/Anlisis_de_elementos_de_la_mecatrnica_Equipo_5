@@ -30,29 +30,16 @@
 
 > Registrar comportamiento REAL medido en laboratorio.
 
-  ------------------------------------------------------------------------------------------------------
-  Material   ¿Detecta?   Distancia   Distancia   Distancia     Zona        Falsas        Observaciones
-             (Sí/No)     mínima      máxima      promedio      inestable   detecciones   técnicas
-                         estable     estable     efectiva (mm) (mm)                      
-                         (mm)        (mm)                                                
-  ---------- ----------- ----------- ----------- ------------- ----------- ------------- ---------------
-  Acero                                                                                  
-
-  Aluminio                                                                               
-
-  Cobre                                                                                  
-
-  Plástico                                                                               
-
-  Madera                                                                                 
-
-  Vidrio                                                                                 
-
-  Agua                                                                                   
-
-  Imán                                                                                   
-  ------------------------------------------------------------------------------------------------------
-
+  | Material | ¿Detecta? (Sí/No) | Distancia mín. estable (mm) | Distancia máx. estable (mm) | Distancia promedio (mm) | Zona inestable (mm) | Falsas detecciones | Observaciones técnicas |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Acero** | | | | | | | |
+| **Aluminio** | | | | | | | |
+| **Cobre** | | | | | | | |
+| **Plástico** | | | | | | | |
+| **Madera** | | | | | | | |
+| **Vidrio** | | | | | | | |
+| **Agua** | | | | | | | |
+| **Imán** | | | | | | | |
 ------------------------------------------------------------------------
 
 # 3️⃣ Prueba de Distancia Incremental
