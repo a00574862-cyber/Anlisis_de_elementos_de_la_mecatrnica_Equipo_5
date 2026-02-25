@@ -50,29 +50,17 @@
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 
-  -------------------------------------------------------------------------------
-  Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
-  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
-  ----------- ---------------- -------------- --------------------- -------------
-  0                                                                 
-
-  2                                                                 
-
-  4                                                                 
-
-  6                                                                 
-
-  8                                                                 
-
-  10                                                                
-
-  12                                                                
-
-  14                                                                
-
-  16                                                                
-  -------------------------------------------------------------------------------
-
+ | Distancia (mm) | LED (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? | Comentarios |
+| :---: | :---: | :---: | :---: | :--- |
+| 0 |  |  |  |  |
+| 2 |  |  |  |  |
+| 4 |  |  |  |  |
+| 6 |  |  |  |  |
+| 8 |  |  |  |  |
+| 10 |  |  |  |  |
+| 12 |  |  |  |  |
+| 14 |  |  |  |  |
+| 16 |  |  |  |  |
 *(Ajustar rango según especificación del sensor)*
 
 ------------------------------------------------------------------------
