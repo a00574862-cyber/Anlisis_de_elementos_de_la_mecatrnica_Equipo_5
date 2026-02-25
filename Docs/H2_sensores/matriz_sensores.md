@@ -35,9 +35,9 @@
 
   | Material | ¿Detecta? (Sí/No) | Distancia mín. estable (mm) | Distancia máx. estable (mm) | Distancia promedio (mm) | Zona inestable (mm) | Falsas detecciones | Observaciones técnicas |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Acero** | | | | | | | |
-| **Aluminio** | | | | | | | |
-| **Cobre** | | | | | | | |
+| **Acero** | C I | C(0mm) I(0mm) | C(6mm) I(5mm) | C(4mm) I(3mm) | C(7mm) I(5mm) | | |
+| **Aluminio** | C I | C(0mm) I(0mm) | C(8mm) I(5mm) | C(4mm) I(3mm) | C(8mm) I(6mm) | | |
+| **Cobre** | C I | C(0mm) I(0mm) | C(5mm) I(2mm) | C(4mm) I(1mm) | C(6mm) I(3mm) | | |
 | **Plástico** | | | | | | | |
 | **Madera** | | | | | | | |
 | **Vidrio** | | | | | | | |
