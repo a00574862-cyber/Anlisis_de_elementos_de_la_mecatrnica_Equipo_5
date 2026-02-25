@@ -70,12 +70,17 @@ En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos o
 
 # 4️⃣ Comparación vs Especificación del Fabricante
 
-  Parámetro                         Valor Datasheet   Valor Experimental   Error (%)
-  --------------------------------- ----------------- -------------------- -----------
+ |Parámetro| Valor Datasheet | Valor Experimental | Error (%)|
+|----------|-----------------|------ -------------|---- -------|------------- -----------
   Distancia nominal                                                        
   Tiempo de respuesta (si aplica)                                          
   Tipo de material recomendado                                             
 
+| Parámetro | Valor Datasheet | Valor Experimental |  Error (%) |
+| :---: | :---: | :---: | :---: | :--- |
+| Distancia nominal| C(10mm) I(4mm) M(12mm) | C(6mm) I(5mm) M(40mm)| C(40%) I(25%) M(230%) |
+| Tiempo de respuesta (si aplica)|C(7.5ms) I(2ms) M (0.6ms)| No aplica | No aplica |
+| Tipo de material recomendaddo| C(Tanto como métalicos como no métalicos) I (Solo métalicos) M(Solo imánes)| C(Distancia de alcance mucho menor con Vidrio) I(Solo métalicos) M(Solo imánes) | No aplica |
 ------------------------------------------------------------------------
 
 # 5️⃣ Análisis Técnico del Equipo
