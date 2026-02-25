@@ -45,7 +45,7 @@
 | **Imán** | C I M | C(0mm) C(0mm) M(0mm) | C(8mm) I(4mm) M(40mm) | C(7mm) I(3mm) M(35mm) | C(9mm) I(5mm) M(45mm) | No | No |
 ------------------------------------------------------------------------
 
-# 3️⃣ Prueba de Distanc ia Incremental
+# 3️⃣ Prueba de Distancia Incremental
 
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
