@@ -38,11 +38,11 @@
 | **Acero** | C I | C(0mm) I(0mm) | C(6mm) I(5mm) | C(4mm) I(3mm) | C(7mm) I(5mm) | | |
 | **Aluminio** | C I | C(0mm) I(0mm) | C(8mm) I(5mm) | C(4mm) I(3mm) | C(8mm) I(6mm) | | |
 | **Cobre** | C I | C(0mm) I(0mm) | C(5mm) I(2mm) | C(4mm) I(1mm) | C(6mm) I(3mm) | | |
-| **Plástico** | | | | | | | |
-| **Madera** | | | | | | | |
-| **Vidrio** | | | | | | | |
-| **Agua** | | | | | | | |
-| **Imán** | | | | | | | |
+| **Plástico** | C | C(0mm) | C(4mm) | C(2mm) | C(5mm) | | |
+| **Madera** | C | C(0mm) | C(6mm) | C(5mm) | C(7mm) | | |
+| **Vidrio** | C | C(0mm) | C(2mm) | C(1mm) | C(3mm) | | |
+| **Agua** | C | C(0mm) | C(8mm) | C(6mm) | C(9mm) | | |
+| **Imán** | C I | C(0mm) C(0mm) M(0mm) | C(8mm) I(4mm) M(40mm) | C(7mm) I(3mm) M(35mm) | C(9mm) I(5mm) M(45mm) | | |
 ------------------------------------------------------------------------
 
 # 3️⃣ Prueba de Distancia Incremental
