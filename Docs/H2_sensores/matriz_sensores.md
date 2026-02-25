@@ -28,6 +28,9 @@
 
 # 2️⃣ Resultados por Material Evaluado
 
+### Nomenclatura de Sensores
+> **I:** Inductivo | **C:** Capacitivo | **O:** Óptico | **M:** Magnético
+
 > Registrar comportamiento REAL medido en laboratorio.
 
   | Material | ¿Detecta? (Sí/No) | Distancia mín. estable (mm) | Distancia máx. estable (mm) | Distancia promedio (mm) | Zona inestable (mm) | Falsas detecciones | Observaciones técnicas |
