@@ -18,7 +18,7 @@ Lo que se realizo en la semana, fue empezar con el control y utilizar un relevad
 
 ## Problema técnico encontrado
 Primeramete el problema que enfrentamos fue que no conociamos el software en el que estabamos trabajando, por lo que al principio estabamos perdidos sobre como conectar los sensores, la fuente de voltaje, el LOGO.
-Además como también parte del equipo desconocia como hacer el proceso manualmente, batallamos ligeramente y tardando un poco, en hacer todas las conexiones fisicas.
+Además como también parte del equipo desconocia como hacer el proceso manualmente, batallamos ligeramente y tardando un poco, en hacer todas las conexiones fisicas. Como tambien tuvimos problemas con el LOGO ya que carecía del programa para detectar los sensores y del sensor optico que siempre estaba detectando algo, posteriormente fueron remplazados por unos sin errores.
 
 ## Solución aplicada
 Durante la clase el profesor estuvo explicando como manejar el software y explicandonos paso a paso como hacerlo de manera correcta y el porque x cosa va conectada hacia otro lugar, al igual que el significado de cada conexion (S1, S2, S3, C1, C2, C3, etc.
