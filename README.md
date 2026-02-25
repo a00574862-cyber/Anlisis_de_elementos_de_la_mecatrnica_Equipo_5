@@ -6,7 +6,7 @@
 - Karol Daniel Cabrera Ramírez (A005747991) - @KarolDCabrera
 - Carlos Tadeo Garay Duran (A0XXXXX) - @
 - Andres Alejandro Sanchez Rabago (A0XXXXXX)- @
-- Alexa (A0XXXXXX)- @
+- Alexa Ortiz Saldaña (A00573382)- @ibukiaos
 
 ## 1) Descripción del problema
 La empresa requiere modernizar la operación de cortinas industriales de hule termo-formado, las cuales poseen dimensiones variables y un peso significativo debido a barras de tensión de 35 kg. Actualmente, el sistema carece de un control preciso sobre las rampas de velocidad, los tiempos de espera y la seguridad perimetral. Se presenta la necesidad de integrar una solución mecatrónica que sustituya el manejo rudimentario por un control automatizado capaz de gestionar diferentes perfiles de usuario (Operador/Supervisor), garantizando la integridad de personas y carga mediante sensores, y permitiendo la flexibilidad de configuración según las dimensiones de cada instalación.
