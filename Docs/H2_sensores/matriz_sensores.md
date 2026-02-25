@@ -72,7 +72,7 @@ En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos o
 
 | Parámetro                          | Valor Datasheet                                              | Valor Experimental                                              | Error (%)                         |
 |------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------|
-| Distancia nominal                  | C (10 mm) · I (4 mm) · M (12 mm)                            | C (6 mm) · I (5 mm) · M (40 mm)                                 | C (40 %) · I (25 %) · M (230 %)   |
+| Distancia nominal                  | C (10 mm) · I (4 mm) · M (Depende del campo magnético del imán)                            | C (6 mm) · I (5 mm) · M (Depende del campo magnético del imán mm)                                 | C (40 %) · I (25 %) · M (No aplica debido a que depende del imán)   |
 | Tiempo de respuesta (si aplica)    | C (7.5 ms) · I (2 ms) · M (0.6 ms)                           | No aplica                                                        | No aplica                         |
 | Tipo de material recomendado       | C (Metálicos y no metálicos) · I (Solo metálicos) · M (Solo imanes) | C (Menor alcance con vidrio) · I (Solo metálicos) · M (Solo imanes) | No aplica                         |
 ------------------------------------------------------------------------
