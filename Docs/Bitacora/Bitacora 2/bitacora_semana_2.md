@@ -6,7 +6,7 @@ Sensores
 ## Actividades realizadas
 Lo que se realizo en la semana, fue empezar con el control y utilizar un relevador programable (LOGO) para integrar nuestro kit de seis ensores digitales. Se realizo todo mediante draw.io, configurando una fuente de poder para alimentar tanto al LOGO como a los sensores, organizando el cableado mediante termiales protegidas y comunes, primeramente se realiza en el software draw.io para entender todas las conexiones y posteriormente lo realizamos en fisico, con los materiales dados durante clases pasadas. 
 
-![image alt]([[https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/ad3c9c6c1bcc4a4de8380cf092a1d6d8085390b8/Evidence/Imagenes/Diagrama%20de%20bloques%20H1.jpeg](https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/1194c6235b595e0e2457bbfe9ef6ab080732c25e/Evidence/Imagenes/LOGO_DIAGRAMA.png](https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/3a75ee2bb017b57823016525ac1dde53690c3e55/Evidence/Imagenes/Esquema%20logo%20en%20draw%20io.jpg)))
+![Diagrama de bloques](https://raw.githubusercontent.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/3a75ee2bb017b57823016525ac1dde53690c3e55/Evidence/Imagenes/Esquema%20logo%20en%20draw%20io.jpg)
 
 ## Decisiones de ingeniería
 
