@@ -6,7 +6,7 @@
 
 ## Equipo: 05
 
-## Integrantes: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+## Integrantes: Karol Daniel Cabrera Ramírez, Andres Alejandro Sanchez Rabago, Carlos Tadeo Garay Durán, Alexa Ortiz Saldaña
 
 ## Fecha: 25/02/2026
 
