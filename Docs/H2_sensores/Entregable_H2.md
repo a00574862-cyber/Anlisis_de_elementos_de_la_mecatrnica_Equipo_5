@@ -14,7 +14,9 @@
 | Actuador | Función | Tipo | Justificación |
 |--------|---------|------|---------------|
 
-r## Riesgos y consideraciones (Sensores)
+(No realizado debido a que no fue visto en clase)
+
+## Riesgos y consideraciones (Sensores)
 
 ¿Qué podría fallar y cómo se mitiga?
 
