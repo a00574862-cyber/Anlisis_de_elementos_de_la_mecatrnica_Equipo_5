@@ -179,7 +179,8 @@ Redactar una conclusión técnica defendible:
     * Sensor Óptico: El riesgo insdustrial es la obstruccion del lente por suciedad, grasa o polvo, ya que esto bloquea la luz y genera paros de emergencia injustificados o la falla total en la detección de obtaculos. Tambien las vibraciones consantes de un sistema, pueden desalinear el emisior y receptor.
 
 Conclusión:
-
+A partir del análisis realizado y las pruebas efectuadas, la matriz de decisión técnica influyó directamente en la conclusión de que la selección del sensor debe basarse en el conocimiento del proceso y del tipo de material a detectar, siendo este un aspecto fundamental. El sensor inductivo y el sensor magnético presentaron un desempeño más robusto, con gran precisión y estabilidad en aplicaciones industriales. El sensor capacitivo ofrece buenos resultados en la detección de materiales dieléctricos, aunque puede presentar problemas de interferencia. Por su parte, el sensor óptico se recomienda principalmente para ambientes controlados, debido a su mayor sensibilidad a factores externos.
+Asimismo, se logró identificar que la selección de un sensor inadecuado para el material o la aplicación industrial correspondiente puede generar errores de detección, falsas activaciones o fallos en el proceso productivo. Por ello, es fundamental considerar factores como el entorno industrial, la compatibilidad con el sistema LOGO y los riesgos operativos que puedan presentarse, garantizando así un funcionamiento seguro, eficiente y confiable del sistema automatizado.
 ------------------------------------------------------------------------
 
 # 8️⃣ Evidencia
