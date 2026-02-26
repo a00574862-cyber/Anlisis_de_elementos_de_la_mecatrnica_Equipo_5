@@ -173,10 +173,11 @@ Redactar una conclusión técnica defendible:
     * Sensor Magnético: No se debe de utilizar en zonas con altos campos electromagnéticos, temperaturas extremas, presencia de materiales ferrosos contaminantes o cuando se requiere una preeición demasiado alta. 
     * Sensor Óptico: No es recomendable en exteriores bao luz solar directa, con presencia de polvo denso, bloqueos de señal con gases densos, ni para detectar materiales negro debido a su mayor absorción de luz.
 -   ¿Qué riesgos industriales identifican?
-    * Sensor Inductivo:
-    * Sensor Capacitivo:
-    * Sensor Magnético:
-    * Sensor Óptico:
+    * Sensor Inductivo: El riesgo mas importante es la interferencia electromagnetica que generan motores grandes, lo que distorsiona el campo magnético necesaio para identificar las barras. Su rango de detección es mas limitado, lo que implica que cualquier desalineación puede dejar el sensor fuera de alcance.
+    * Sensor Capacitivo: El riesgo porncipal del sensor es su falta de    sensibilidad a la contaminación ambiental, ya sea el polvo o humnedad. Esto porque detecta cambios en la constante dielectrica, cualquie acomulacioin de residuos en una superficio puede probocar falsas actividades.
+    * Sensor Magnético: El riesgo que enfrentan estos sensores es la interferencia de campos magneticos externos de una magnitud mas grande, los cuales alteran el estaod del sensor y provocan lecturas erráticas sobre la posicion de lo que estan midiendo.
+    * Sensor Óptico: El riesgo insdustrial es la obstruccion del lente por suciedad, grasa o polvo, ya que esto bloquea la luz y genera paros de emergencia injustificados o la falla total en la detección de obtaculos. Tambien las vibraciones consantes de un sistema, pueden desalinear el emisior y receptor.
+
 Conclusión:
 
 ------------------------------------------------------------------------
