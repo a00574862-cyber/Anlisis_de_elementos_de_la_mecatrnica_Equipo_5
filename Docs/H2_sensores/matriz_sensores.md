@@ -166,7 +166,7 @@ Redactar una conclusión técnica defendible:
     * Sensor Inductivo: Es ideal para la detección de objjetos metá en ambientes industriales en un entorno con polvo, vibraciónes, ruido eléctrico. Siendo muy confiable y estable.
     * Sensor Capacitivo: Este sensor es muy utilizado en la industria, especialmente en un entorno controlado ya que ayuda en variaciones de materiales, siempre y cuando se realice una correcta calibración.
     * Sensor Magnético: Sus condiciones ideales serían ante imanes permanentes, como cilindros neumáticos con pistón magnético, siendo muy útil  en detección de posiciones internas sin contacto directo.
-    * Sensor Óptico: Es conveniente su aplicación en sistemas de conteo, con clasifiación de detección
+    * Sensor Óptico: Es conveniente su aplicación en sistemas de conteo, con clasifiación de detección a una gran distancia. Funciona en entornos limpios y bien alineados, sin interferencias de objetos o obstaculos con la luz.
 -   ¿En qué condiciones no?
     * Sensor Inductivo:
     * Sensor Capacitivo:
