@@ -76,8 +76,8 @@ La prueba se realizo en la superficie de arriba de una mesa.
 | 4 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
 | 5 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
 | 6 | ON | - | Sí | Se mantuvo de manera constante el LED prendido. |
-| 7 | ON | - | No | Estuvo muy variable el LED, se apagaba y prendia con pequeños movimientos. |
-| 8 | ON | - | No | No prendio el foco LED|
+| 7 | ON/OFF | - | No | Estuvo muy variable el LED, se apagaba y prendia con pequeños movimientos. |
+| 8 | OFF | - | No | No prendio el foco LED|
 
 **Nota**
 En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos otorgo otro pero por falta de tiempo 
