@@ -168,10 +168,10 @@ Redactar una conclusión técnica defendible:
     * Sensor Magnético: Sus condiciones ideales serían ante imanes permanentes, como cilindros neumáticos con pistón magnético, siendo muy útil  en detección de posiciones internas sin contacto directo.
     * Sensor Óptico: Es conveniente su aplicación en sistemas de conteo, con clasifiación de detección a una gran distancia. Funciona en entornos limpios y bien alineados, sin interferencias de objetos o obstaculos con la luz.
 -   ¿En qué condiciones no?
-    * Sensor Inductivo:
-    * Sensor Capacitivo:
-    * Sensor Magnético:
-    * Sensor Óptico:
+    * Sensor Inductivo: No es recomendable para materiales no metálicoss, cuando se requieren distnacias de detección largas o en presencia de campos magnéticos intensos.
+    * Sensor Capacitivo: No se recomienda su uso en entornos con alta humedad, conductores de suciedad o grandes cambios de temperaturas.
+    * Sensor Magnético: No se debe de utilizar en zonas con altos campos electromagnéticos, temperaturas extremas, presencia de materiales ferrosos contaminantes o cuando se requiere una preeición demasiado alta. 
+    * Sensor Óptico: No es recomendable en exteriores bao luz solar directa, con presencia de polvo denso, bloqueos de señal con gases densos, ni para detectar materiales negro debido a su mayor absorción de luz.
 -   ¿Qué riesgos industriales identifican?
     * Sensor Inductivo:
     * Sensor Capacitivo:
