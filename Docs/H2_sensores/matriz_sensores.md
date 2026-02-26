@@ -82,6 +82,7 @@ En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos o
 ## 5.1 ¿Coincide la distancia real con la nominal?
 
 Respuesta: Existe una diferencia entre la distancia experimental con la nominal, el sensor capacitivo tiene un 40% de error con una diferencia de 4mm con la distancia especificada por el fabricante, en cambio, el inductivo posee un 25% con una diferencia de 1mm entre el valor experimental y el de datasheet. El sensor magnético no usa el mismo criterio para medir su alcance ya que depende de la magnitud del campo magnético del imán a detectar por lo que varia su alcance.
+
 ------------------------------------------------------------------------
 
 ## 5.2 ¿Qué fenómeno físico explica el comportamiento observado?
