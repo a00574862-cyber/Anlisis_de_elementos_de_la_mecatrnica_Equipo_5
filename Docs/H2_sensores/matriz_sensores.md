@@ -72,7 +72,7 @@ En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos o
 
 | Parámetro                          | Valor Datasheet                                              | Valor Experimental                                              | Error (%)                         |
 |------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------|
-| Distancia nominal                  | C (10 mm) · I (4 mm) · M (Depende del campo magnético del imán)                            | C (6 mm) · I (5 mm) · M (Depende del campo magnético del imán mm)                                 | C (40 %) · I (25 %) · M (No aplica debido a que depende del imán)   |
+| Distancia nominal                  | C (10 mm) · I (4 mm) · M (Depende del campo magnético del imán)                        | C (6 mm) · I (5 mm) · M (Depende del campo magnético del imán)                                 | C (40 %) · I (25 %) · M (No aplica debido a que depende del imán)   |
 | Tiempo de respuesta (si aplica)    | C (7.5 ms) · I (2 ms) · M (0.6 ms)                           | No aplica                                                        | No aplica                         |
 | Tipo de material recomendado       | C (Metálicos y no metálicos) · I (Solo metálicos) · M (Solo imanes) | C (Menor alcance con vidrio) · I (Solo metálicos) · M (Solo imanes) | No aplica                         |
 ------------------------------------------------------------------------
@@ -81,22 +81,27 @@ En nuestra practica nuestro LOGO no funcionaba al no tener el programa, se nos o
 
 ## 5.1 ¿Coincide la distancia real con la nominal?
 
-Respuesta:
-
+Respuesta: Existe una diferencia entre la distancia experimental con la nominal, el sensor capacitivo tiene un 40% de error con una diferencia de 4mm con la distancia especificada por el fabricante, en cambio, el inductivo posee un 25% con una diferencia de 1mm entre el valor experimental y el de datasheet. El sensor magnético no usa el mismo criterio para medir su alcance ya que depende de la magnitud del campo magnético del imán a detectar por lo que varia su alcance.
 ------------------------------------------------------------------------
 
 ## 5.2 ¿Qué fenómeno físico explica el comportamiento observado?
 
-(Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
+El campo (Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
 óptica, campo magnético)
 
-Respuesta:
+Respuesta: El sensor capacitivo utiliza placas diélectricas que generan un campo electroestático, además contiene un oscilador y un circuito de disparo (detector); el vacío tiene una constante diélectrica de 1 mientras que cualquier sustancia tiene una constante mayor, por lo que si una sustancia entra en el campo électricoestático aumenta la capacitancia y con ello la frecuencia de oscilación, ese cambio permite al sensor detectar un objeto.
+El sensor inductivo posee un bobina interna para generar un campo electromagnético, cuando un material ferroso pasa en el rango del sensor una corriente de Foucalt fluye por el objeto debido a la inducción electromágnetica, al hacer eso aumenta la carga del sistema por lo que la oscilación se atenua o se detiene y el sensor identifica al objeto ferroso en el rango.
+El sensor óptico emite una luz infraroja que mediante un fotodiodo o fototransmisor detecta interrupciones o reflexiones de haz, al notar cambios en la intensidad o el paso de luz el sensor se activa.
+El sensor magnético contiene cilindros mecánicos con un imán integrado, al exponerse a un campo magnético el imán interno se mueve de posición emujando y desplazando los cilindors internos, este movimiento permite al sensor detectar la presencia de un imán.
 
 ------------------------------------------------------------------------
 
 ## 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué?
 
-Respuesta:
+Respuesta: Para el sensor capacitivo los materiales con una constante diélectrica mayor a la del vacío o el aire pueden detectarse, es decir, tanto materiales no conductores cómo con conductores pueden ser detectados, sin embargo, materiales como cerámicas ferroeléctricas, líquidos polares y ciertos óxidos metálicos son los que poseen una constante diaeléctrica mayor.
+En el caso del sensor inductivo los materiales que tengan una mayor conductividad generan mejor desempeño, esto ya que permiten un mayor paso de corriente de Foucalt aumentando la carga y atenuando la oscilación. Por ende, metales ferrosos cómo el acero y hierro son facilmente detectables, asismismo los no ferrosos como el cobre, latón o acero inoxidable.
+Materiales con superficies claras, brillantes u opacas son las más detectables para un sensor óptico infrarojo, ya que reflejan su luz de manera eficiente para ser captado por los receptores.
+En cambio, el sensor magnético al detertar campos magnéticos mediante el movimiento de su imán y cilindros internos, tendrá una mayor efectividad si se expone a materiales con un campo magnético de gran alcance y magnitud como imanes de neodimio (NdFeB) o el samario-cobalto (SmCo)
 
 ------------------------------------------------------------------------
 
