@@ -137,29 +137,15 @@ Respuesta: Cada sensor presenta una funcionalidad crucial para la cortina, conta
 
 # 6️⃣ Matriz de Decisión Técnica
 
-  ----------------------------------------------------------------------------
-  Criterio      Peso (1--5)  Evaluación del sensor (1--5) Resultado ponderado
-  ------------- ------------ ---------------------------- --------------------
-  Precisión                                               
-
-  Distancia                                               
-  útil                                                    
-
-  Robustez                                                
-  industrial                                              
-
-  Inmunidad a                                             
-  ruido                                                   
-
-  Costo                                                   
-
-  Facilidad de                                            
-  integración                                             
-  con LOGO                                                
-
-  **TOTAL**                                               
-  ----------------------------------------------------------------------------
-
+| Criterio | Peso (1–5) | Evaluación del sensor (1–5) | Resultado ponderado |
+| :--- | :---: | :---: | :---: |
+| Precisión | | | |
+| Distancia útil | | | |
+| Robustez industrial | | | |
+| Inmunidad a ruido | | | |
+| Costo | | | |
+| Facilidad de integración con LOGO | | | |
+| **TOTAL** | | | |
 ------------------------------------------------------------------------
 
 # 7️⃣ Conclusión Ingenieril
