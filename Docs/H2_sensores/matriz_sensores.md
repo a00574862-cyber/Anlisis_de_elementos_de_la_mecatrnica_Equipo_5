@@ -14,16 +14,6 @@
 
 # 1️⃣ Identificación del Sensor
 
-  Parámetro                             Información
-  ------------------------------------- ---------------------------------------------
-  Tipo de sensor                        Inductivo / Capacitivo / Óptico / Magnético
-  Marca / Modelo                        
-  Tipo de salida                        PNP / NPN / Relé
-  Alimentación                          
-  Distancia nominal (según datasheet)   
-  Tipo de conexión al LOGO              Digital / Analógica
-  Observaciones iniciales               
-
 ## Tabla Técnica de Sensores
 
 | Parámetro | FESTO SME-8M-DS-24V-K-2,5-OE | LJC18A3-B-Z/BX | LJ12A3-4-Z/BX | E3F-DS30P1 |
