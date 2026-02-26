@@ -92,7 +92,7 @@ El campo (Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
 Respuesta: El sensor capacitivo utiliza placas diélectricas que generan un campo electroestático, además contiene un oscilador y un circuito de disparo (detector); el vacío tiene una constante diélectrica de 1 mientras que cualquier sustancia tiene una constante mayor, por lo que si una sustancia entra en el campo électricoestático aumenta la capacitancia y con ello la frecuencia de oscilación, ese cambio permite al sensor detectar un objeto.
 El sensor inductivo posee un bobina interna para generar un campo electromagnético, cuando un material ferroso pasa en el rango del sensor una corriente de Foucalt fluye por el objeto debido a la inducción electromágnetica, al hacer eso aumenta la carga del sistema por lo que la oscilación se atenua o se detiene y el sensor identifica al objeto ferroso en el rango.
 El sensor óptico emite una luz infraroja que mediante un fotodiodo o fototransmisor detecta interrupciones o reflexiones de haz, al notar cambios en la intensidad o el paso de luz el sensor se activa.
-El sensor magnético contiene cilindros mecánicos con un imán integrado, al exponerse a un campo magnético el imán interno se mueve de posición emujando y desplazando los cilindors internos, este movimiento permite al sensor detectar la presencia de un imán.
+El sensor magnético puede funcionar de dos maneras principales - Reed Switch: contiene dos barras metálicas dentro de un tubo de vidrio que al exponerse a un campo magnético se magnetizan y se atraen cerrando el contacto eléctrico - Efecto Hall: usa un semiconductor que con un chip integrado puede medir el voltaje generado por un campo magnético activando una señal cuando se supera un umbral determinado. De esa manera al acercarse un objeto con campo magnético como un imán es detectado por el sensor.
 
 ------------------------------------------------------------------------
 
@@ -101,13 +101,13 @@ El sensor magnético contiene cilindros mecánicos con un imán integrado, al ex
 Respuesta: Para el sensor capacitivo los materiales con una constante diélectrica mayor a la del vacío o el aire pueden detectarse, es decir, tanto materiales no conductores cómo con conductores pueden ser detectados, sin embargo, materiales como cerámicas ferroeléctricas, líquidos polares y ciertos óxidos metálicos son los que poseen una constante diaeléctrica mayor.
 En el caso del sensor inductivo los materiales que tengan una mayor conductividad generan mejor desempeño, esto ya que permiten un mayor paso de corriente de Foucalt aumentando la carga y atenuando la oscilación. Por ende, metales ferrosos cómo el acero y hierro son facilmente detectables, asismismo los no ferrosos como el cobre, latón o acero inoxidable.
 Materiales con superficies claras, brillantes u opacas son las más detectables para un sensor óptico infrarojo, ya que reflejan su luz de manera eficiente para ser captado por los receptores.
-En cambio, el sensor magnético al detertar campos magnéticos mediante el movimiento de su imán y cilindros internos, tendrá una mayor efectividad si se expone a materiales con un campo magnético de gran alcance y magnitud como imanes de neodimio (NdFeB) o el samario-cobalto (SmCo)
+En cambio, el sensor magnético al detectar campos magnéticos mediante el movimiento de su imán y cilindros internos, tendrá una mayor efectividad si se expone a materiales con un campo magnético de gran alcance y magnitud como imanes de neodimio (NdFeB) o el samario-cobalto (SmCo). Asimismo puede detectar métales magnetizados como el hierro, níquel, acero y cobalto ya que inturrumpen el campo magnético del imán interno del sensor.
 
 ------------------------------------------------------------------------
 
 ## 5.4 ¿Detectaron zonas muertas o inestabilidad?
 
-Respuesta:
+Respuesta: Detectamos inestabilidad en los sensores solo al alejarnos o mantenerlos justo al límite de su alcance con los materiales, asimismo en materiales donde no se desempeñan bien. No se presentaron comportamientos inusuales en los sensores.
 
 ------------------------------------------------------------------------
 
@@ -115,7 +115,7 @@ Respuesta:
 
 Justificar técnica y económicamente.
 
-Respuesta:
+Respuesta: Cada sensor presenta una funcionalidad crucial para la cortina, contamos con 3 sensores magnéticos que servirán para detectar la posición actual de la cortina desde 3 diferentes puntos (inferior, medio y superior) esto por medio de un imán de alta potencia que colocaremos en la bara metálica usada para tensar la tela que constituirá la cortina. En cuanto al sensor capacitivo este nos servirá como refuerzo para identificar cuando la cortina a decendido a su límite, esto igualmente detectando la barra metálica de la cortina. En cambio el sensor inductivo lo ocuparemos para detectar que a subido completamente igualmente a partir de la barra métalica. A su vez el sensor óptico servirá como elemento de seguridad ya que puede detectar a una distancia considerable cualquier objeto, con lo que se colocará en el rango de movimiento del sistema para que, en conjunto con los actuadores, pueda detenerse y/o subir al existir algún obstáculo. En cuanto a los costos, los sensores magnéticos del tipo que usaremos cuestan aproximadamente 1500 pesos mexicanos, los capacitivos de entre $140 a $290 y los inductivos de $60 a $170, teniendo en total un costo de $4730 - $4960, este presupuesto junto con los materiales de construcción entra en el rango de costo de una cortina eléctrica de 2x1 metros (semejante a las dimensiones de nuestro prototipo) con $8500 - $12500. Por ende, todos los sensores son imprescindibles para la parte técnica y económicamente se encuentran dentro de los estandares de una cortina eléctrica industrial, siendo adecuados para el problema del curso.
 
 ------------------------------------------------------------------------
 
