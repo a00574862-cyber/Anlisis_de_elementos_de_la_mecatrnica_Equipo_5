@@ -24,6 +24,31 @@
   Tipo de conexión al LOGO              Digital / Analógica
   Observaciones iniciales               
 
+## Tabla Técnica de Sensores
+
+| Parámetro | FESTO SME-8M-DS-24V-K-2,5-OE | LJC18A3-B-Z/BX | LJ12A3-4-Z/BX | E3F-DS30P1 |
+|-----------|------------------------------|----------------|---------------|------------|
+| **Tipo de sensor** | Magnético Reed | Capacitivo (M18) | Inductivo (M12) | Óptico/Fotoeléctrico |
+| **Marca/Modelo** | FESTO / SME-8M-DS-24V-K-2,5-OE | Genérico / LJC18A3-B-Z/BX | Genérico / LJ12A3-4-Z/BX | Omron/Genérico / E3F-DS30P1 |
+| **Tipo de salida** | Contacto seco (N/O) bipolar | NPN - NO | NPN - NO | PNP - NO |
+| **Alimentación** | 24V DC | DC 6-36V | DC 6-36V | DC 6-36V |
+| **Distancia nominal** | Posición de émbolo (T-slot) | 1-10 mm (ajustable) | 4 mm ±10% | 10-30 cm (ajustable) |
+| **Corriente máxima** | 500 mA | 200-300 mA | 300 mA | 300 mA |
+| **Protección IP** | IP65/IP68 | IP67 | IP67 | IP64/IP67 |
+| **Material del cuerpo** | Acero inoxidable / PA | Plástico / Metal | Latón niquelado | Plástico (M18) |
+| **Tipo de conexión** | Cable (2.5m) | 3 cables | 3 cables | 3 cables |
+| **Conexión a LOGO** | Digital | Digital | Digital | Digital |
+| **Observaciones** | Sensor para cilindros neumáticos T-slot | Detecta materiales dieléctricos | Solo detecta metales | Luz infrarroja, LED rojo |
+
+### Notas importantes:
+
+1. **FESTO SME-8M-DS-24V-K-2,5-OE**: Sensor magnético tipo Reed diseñado específicamente para cilindros neumáticos con ranura T. Tiene cable de 2.5m incluido.
+
+2. **LJC18A3-B-Z/BX**: Sensor capacitivo M18 que puede detectar tanto materiales metálicos como no metálicos (dieléctricos) con distancia ajustable de 1-10mm.
+
+3. **LJ12A3-4-Z/BX**: Sensor inductivo M12 que solo detecta objetos metálicos a 4mm de distancia. Es el más pequeño de los cuatro.
+
+4. **E3F-DS30P1**: Sensor fotoeléctrico difuso infrarrojo con distancia ajustable hasta 30cm. Utiliza LED infrarrojo (660 nm) como fuente de luz.
 ------------------------------------------------------------------------
 
 # 2️⃣ Resultados por Material Evaluado
