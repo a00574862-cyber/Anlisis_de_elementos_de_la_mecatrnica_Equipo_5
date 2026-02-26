@@ -198,7 +198,7 @@ Asimismo, se logró identificar que la selección de un sensor inadecuado para e
 ¿Qué aprendieron técnicamente sobre sensores de proximidad que no sabían
 antes?
 
-Respuesta:
+Respuesta: Aprendimos que la seleccion de sensores depende de la naturaleza fisica de del material a detectar, por ejemplo, los sensore sinductivos se limitan a metales, mietrnas que los capacitivos permiten identificar materiales no conductores, en la practica aprendemos sobre la infraestructura de la conexion de 3 cables, cafe para 24V, azul para 0V y el negro para señal, comprendiendo que necesitan tener un nodo común en el LOGO para evitar problemas. Tambien aprendimos sobre los posibles riesgos y mitigaciones de los sensores para cualquier circuntancia, y sabemos que los sensores opticos tienen un mayor alcance pero son vulnerables a la suciedad del entorno.
 
 ------------------------------------------------------------------------
 
