@@ -137,15 +137,19 @@ Respuesta: Cada sensor presenta una funcionalidad crucial para la cortina, conta
 
 # 6️⃣ Matriz de Decisión Técnica
 
-| Criterio | Peso (1–5) | Evaluación del sensor (1–5) | Resultado ponderado |
-| :--- | :---: | :---: | :---: |
-| Precisión | | | |
-| Distancia útil | | | |
-| Robustez industrial | | | |
-| Inmunidad a ruido | | | |
-| Costo | | | |
-| Facilidad de integración con LOGO | | | |
-| **TOTAL** | | | |
+> **I:** Inductivo | **C:** Capacitivo | **O:** Óptico | **M:** Magnético
+  ----------------------------------------------------------------------------
+| Criterio | Peso (1--5) | Evaluación del sensor (1--5) | Resultado ponderado |
+|----------|-------------|------------------------------|---------------------|
+| Precisión | 5 | I(5) C(4) M(5) O(-) | I(25) C(20) M(25) O(0) |                            
+| Distancia útil | 5 | I() C() M() O(-) | I(15) C(15) M(20) O(0) |                                                   
+| Robustez industrial | 5 | I(5) C(4) M(5) O(3) | I(25) C(20) M(25) O(15) |                                             
+| Inmunidad a ruido | 4 | I(5) C(3) M(5) O(-) | I(20) C(12) M(20) O(0) |                                                 
+| Costo | 3 | I(5) C(5) M(3) O(5) | I(15) C(15) M(9) O(15) |                                                   
+| Facilidad de integración con LOGO | 5 | I(5) C(5) M(5) O(-) | I(25) C(25) M(25) O(0) |
+| **TOTAL** | - | - | **I(125) C(107) M(124) O(30)** |                               
+  ----------------------------------------------------------------------------
+
 ------------------------------------------------------------------------
 
 # 7️⃣ Conclusión Ingenieril
@@ -153,10 +157,26 @@ Respuesta: Cada sensor presenta una funcionalidad crucial para la cortina, conta
 Redactar una conclusión técnica defendible:
 
 -   ¿Recomendarían este sensor?
--   ¿En qué condiciones sí?
--   ¿En qué condiciones no?
--   ¿Qué riesgos industriales identifican?
+    * Sensor Inductivo: Este sensor es ampliamente recomendable en aplicaciones industriales donde se requiere la detección precisa de objetos metálicos. Destaca por su alta robustez, buen desempeño frente al ruido eléctrico y facilidad de integración con el controlador LOGO. Estas características lo convierten en una opción confiable y segura para sistemas automatizados.
+    * Sensor Capacitivo: Se recomienda el sensor capacitivo cuando no es necesario detectar metales, sino materiales dieléctricos como plástico, vidrio o líquidos. Aunque presenta mayor sensibilidad a interferencias ambientales, resulta muy versátil en procesos donde el tipo de material puede variar, ofreciendo una solución flexible.
+    * Sensor Magnético: El sensor magnético es altamente recomendable en aplicaciones que utilizan actuadores o dispositivos con imanes permanentes. Ofrece gran precisión y estabilidad, incluso en entornos industriales exigentes. Es especialmente útil cuando se requiere confiabilidad en sistemas neumáticos o mecanismos con posicionamiento magnético.
+    * Sensor Óptico: El sensor óptico también es recomendable, ya que es especialmente útil en sistemas de conteo, detección de presencia y procesos automatizados sin contacto físico. Es ampliamente utilizado en la industria debido a su rapidez de respuesta y capacidad para trabajar a mayores distancias de detección.
 
+-   ¿En qué condiciones sí?
+    * Sensor Inductivo: Es ideal para la detección de objjetos metá en ambientes industriales en un entorno con polvo, vibraciónes, ruido eléctrico. Siendo muy confiable y estable.
+    * Sensor Capacitivo: Este sensor es muy utilizado en la industria, especialmente en un entorno controlado ya que ayuda en variaciones de materiales, siempre y cuando se realice una correcta calibración.
+    * Sensor Magnético: Sus condiciones ideales serían ante imanes permanentes, como cilindros neumáticos con pistón magnético, siendo muy útil  en detección de posiciones internas sin contacto directo.
+    * Sensor Óptico: Es conveniente su aplicación en sistemas de conteo, con clasifiación de detección
+-   ¿En qué condiciones no?
+    * Sensor Inductivo:
+    * Sensor Capacitivo:
+    * Sensor Magnético:
+    * Sensor Óptico:
+-   ¿Qué riesgos industriales identifican?
+    * Sensor Inductivo:
+    * Sensor Capacitivo:
+    * Sensor Magnético:
+    * Sensor Óptico:
 Conclusión:
 
 ------------------------------------------------------------------------
