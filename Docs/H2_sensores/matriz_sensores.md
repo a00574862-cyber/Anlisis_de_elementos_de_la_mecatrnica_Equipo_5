@@ -187,9 +187,21 @@ Asimismo, se logró identificar que la selección de un sensor inadecuado para e
 # 8️⃣ Evidencia
 
 -   Fotografías del montaje:
+    - Inicio de Montaje
+ ![Montaje 01](https://raw.githubusercontent.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/c56a726a7218c1fc2db183bf12803984a98178e7/Evidence/Imagenes/montaje%2001.jpeg)
+    - Montaje finalizado
+ ![Montaje 02](https://raw.githubusercontent.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/c56a726a7218c1fc2db183bf12803984a98178e7/Evidence/Imagenes/montaje%2002.jpeg)
+    - Pruebas de sensor Capacitivo
+![Montaje 03](https://raw.githubusercontent.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/c56a726a7218c1fc2db183bf12803984a98178e7/Evidence/Imagenes/montaje%2003.jpeg)
+
 -   Capturas del programa en LOGO:
+    - El módulo LOGO disponible no contaba con la configuración necesaria para detectar los sensores utilizados. Por esta razón, la instalación y conexiones del LOGO quedaron pendientes.
 -   Video corto de funcionamiento:
+    - **Video demostrativo del sistema en operación:**
+    https://youtu.be/9oqdF69JoDY?si=T7orabSnD9y1LCNl
 -   Datasheet utilizado (link o archivo en repositorio):
+    - **Enlace al datasheet:**
+    https://tecmx-my.sharepoint.com/:f:/g/personal/a00574862_tec_mx/IgCVoUWX2dj5Rp9j3-lfmOKMAfwd1tZCh7G1eg3xrSB8lwA?e=Eomb8M
 
 ------------------------------------------------------------------------
 
