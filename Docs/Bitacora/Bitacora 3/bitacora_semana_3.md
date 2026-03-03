@@ -22,5 +22,5 @@ Explica cómo se resolvió.
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
-- ⬜ Entendiendo
+- [x] Entendiendo
 - ⬜ Dominando
