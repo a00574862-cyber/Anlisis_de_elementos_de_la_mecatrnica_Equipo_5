@@ -1,7 +1,7 @@
-# Bitácora – Semana X
+# Bitácora – Semana 3
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+Actuadores
 
 ## Actividades realizadas
 Describe brevemente lo que trabajó el equipo.
