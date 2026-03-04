@@ -11,8 +11,7 @@ El equipo trabajo en el modelado del software de LOGO mediante la ayuda del prof
 |--------|-------------|---------------|
 
 ## Problema técnico encontrado
-Describe un problema concreto.
-#Al verificar el diagrama de draw.io con la implementación en LOGO!, identificamos que las conexiones de los sensores de posición de la cortina (I2, I3, I4) no estaban correctamente vinculadas con los bloques de función que controlan el paro del motor en cada posición límite.
+- Al verificar el diagrama de draw.io con la implementación en LOGO!, identificamos que las conexiones de los sensores de posición de la cortina (I2, I3, I4) no estaban correctamente vinculadas con los bloques de función que controlan el paro del motor en cada posición límite.
 
 ## Solución aplicada
 Explica cómo se resolvió.
