@@ -14,7 +14,7 @@ El equipo trabajo en el modelado del software de LOGO mediante la ayuda del prof
 - Al verificar el diagrama de draw.io con la implementación en LOGO!, identificamos que las conexiones de los sensores de posición de la cortina (I2, I3, I4) no estaban correctamente vinculadas con los bloques de función que controlan el paro del motor en cada posición límite.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+- Se revisó el cableado virtual en LOGO! Soft Comfort comparándolo línea por línea con el diagrama de draw.io. Se corrigieron las conexiones de los sensores I2, I3 e I4 asegurando que estuvieran conectados a los bloques de comparación correctos (B004, B005). Se realizaron pruebas de simulación en cada posición de la cortina (arriba, medio, abajo) verificando que los motores se detuvieran en el momento adecuado.
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
