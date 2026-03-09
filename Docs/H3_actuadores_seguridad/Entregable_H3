@@ -3,23 +3,30 @@
 ## Descripción de la lógica de control
 Explica la secuencia o lógica implementada en LOGO.
 
-## Entradas y salidas
-| Entrada | Tipo | Función |
-|--------|------|---------|
-|I1|Digital|Conexión a S1: Sensor capacitivo|
-|I2|Digital|Conexión a S2: Sensor inductivo|
-|I3|Digital|Conexión a S3: Sensor óptico|
-|I4|Digital|Conexión a S4: Sensor magnético |
-|I5|Digital|Conexión a S5: Sensor magnético|
-|I6|Digital|Conexión a S6: Sensor magnético|
+## 🔌 Asignación de Entradas y Salidas (I/O)
 
-| Salida | Tipo | Función |
-|--------|------|---------|
-|Q1|Digital|Conexión del Relé a la fuente de 24v|
-|Q2|Digital|Conexión del Relé a la fuente de 24v |
-|Q3|Digital|Conexión a Q4 y luz roja de la lámpara|
-|Q4|Digital|Conexión a C8 y luz verde de la lámpara|
+###Entradas (Inputs)
+| Pin | Tipo | Función / Sensor | Identificador |
+| :---: | :---: | :--- | :---: |
+| **I1** | Digital | Sensor Capacitivo | **S1** |
+| **I2** | Digital | Sensor Inductivo | **S2** |
+| **I3** | Digital | Sensor Óptico | **S3** |
+| **I4** | Digital | Sensor Magnético | **S4** |
+| **I5** | Digital | Sensor Magnético | **S5** |
+| **I6** | Digital | Sensor Magnético | **S6** |
 
+---
+
+###Salidas (Outputs)
+| Pin | Tipo | Función / Actuador | Conexión |
+| :---: | :---: | :--- | :--- |
+| **Q1** | Digital | Relé a Fuente | Fuente 24V |
+| **Q2** | Digital | Relé a Fuente | Fuente 24V |
+| **Q3** | Digital | Luz Roja (Lámpara) | Conexión Q4 |
+| **Q4** | Digital | Luz Verde (Lámpara) | Conexión C8 |
+
+> [!NOTE]
+> Todas las entradas y salidas operan bajo lógica digital estándar para PLC/Controlador de 24V DC.
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
