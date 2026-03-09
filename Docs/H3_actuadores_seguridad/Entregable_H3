@@ -24,9 +24,7 @@ Explica la secuencia o lógica implementada en LOGO.
 | **Q3** | Digital | Luz Roja (Lámpara) | Conexión Q4 |
 | **Q4** | Digital | Luz Verde (Lámpara) | Conexión C8 |
 
-> [!NOTE]
-> Todas las entradas y salidas operan bajo lógica digital estándar para PLC/Controlador de 24V DC.
-## Pruebas realizadas
+
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
 
