@@ -29,12 +29,12 @@ Para implementar la logica de control en LOGO se utilizaron relevadores para ges
 
 
 | Prueba | Resultado esperado | Resultado obtenido |
-| Ascenso | El motor de subir se enciende | Fue el correcto y logramos hacer que el motor encendiera. | 
-| Timpo de Espera | El motor de apaga e inmediatamente esperamos 10 segundos por el retroceso | Fue el correcto, se espero el tiempo y se volvio a encender con el otro rele (para bajar) | 
-| Descenso | El segundo rele activa el motor para que comience a bajar | El rele se activa y e motor comienza a bajar. | 
-| Luz verde prende | La luz verde se enciende cuando el motor se apaga | El resultado fue el esperado y se encendia la Luz verde cuando el motor se detenia. | 
-| Luz roja enciende | La luz roja se enciende cuando el motor esta encendido | El resultado fue el esperado y se encendia la Luz roja cuando el motor estaba en movimiento. | 
-|------|------------------|------------------|
+| :--- | :--- | :--- |
+| **Ascenso** | El motor de subir se enciende. | Fue el correcto; logramos hacer que el motor encendiera. |
+| **Tiempo de Espera** | El motor se apaga e inmediatamente esperamos 10 segundos para el retroceso. | Fue el correcto; se esperó el tiempo y se volvió a encender con el otro relé (para bajar). |
+| **Descenso** | El segundo relé activa el motor para que comience a bajar. | El relé se activa y el motor comienza a bajar. |
+| **Luz verde prende** | La luz verde se enciende cuando el motor se apaga. | El resultado fue el esperado; se encendía la luz verde cuando el motor se detenía. |
+| **Luz roja enciende** | La luz roja se enciende cuando el motor está encendido. | El resultado fue el esperado; se encendía la luz roja cuando el motor estaba en movimiento. |
 
 
 ## Ajustes realizados
