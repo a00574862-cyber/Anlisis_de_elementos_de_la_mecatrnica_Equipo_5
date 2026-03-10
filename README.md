@@ -1,4 +1,4 @@
-# Anlisis-de-elementos-de-la-mecatrnica-Equipo-5
+# Anlisis-de-elementos-de-la-mecatronica-Equipo-5
 
 # MR2022 - Proyecto Integrador (Siemens LOGO)
 
