@@ -6,12 +6,12 @@ Programación Lógica de Siemens LOGO.
 ## Actividades realizadas
 Implementar el programa de control de la cortina en el LOGO.
 Diseñar la pantalla Human Machine Interface.
-Ejecutar pruebas y documentación de resultados reales.
+Ejecutar pruebas para los distintos funcionamientos de la cortina y documentación de resultados reales.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 | :--- | :--- | :--- |
-| **Programación en LOGO** | Una sola carpeta general vs. carpetas divididas por semanas. | Se eligió la división semanal para facilitar la trazabilidad del proyecto y permitir una auditoría rápida de los avances técnicos. |
+| **Programación en LOGO** | Programación aconsejada vs. Programación independiente. | Se eligió la programación sugerida después de un análisis y se encontró que era la óptima. |
 | **Uso de GitHub para documentación** | Carpetas locales. | La materia y profesor suguirieron GitHub para implementar un control de versiones real, permitiendo que todo el equipo trabaje sobre los mismos archivos. |
 | **Enfoque de aprendizaje en LOGO!** | Programación en texto vs. Diagramas de funciones. | Se inició con diagramas de funciones para visualizar la lógica de control de forma gráfica antes de escalar a sistemas más complejos. |
 
