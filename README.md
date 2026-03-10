@@ -39,28 +39,52 @@ El sistema se considera un "éxito" cuando:
 
 
 ## 5) Componentes seleccionados
+
 ### Sensores
-- Sensor 1 (tipo: inductivo/capacitivo/óptico/magnético): función, criterio de selección
-- ...
+La selección se basó en el árbol de decisión para sistemas mecatrónicos y el entorno industrial de la cortina.
+
+* **S1 (Capacitivo)**: Detecta la presencia del hule termo-formado (opaco o transparente). Se eligió por su capacidad de detectar materiales no conductores mediante variaciones en la constante dieléctrica.
+* **S2 (Inductivo)**: Identifica las barras metálicas de tensión de $35 \text{ kg}$. Su selección responde a la necesidad de detectar metales de forma robusta mediante campos magnéticos.
+* **S3 (Óptico/Barrera)**: Actúa como sistema de seguridad perimetral para detectar personas o vehículos. Ofrece un rango de detección amplio y una respuesta rápida.
+* **S4, S5, S6 (Magnéticos)**: Funcionan como finales de carrera para las posiciones Arriba (límite máximo), Medio (transición de velocidad) y Abajo (cierre total).
+
+
 
 ### Actuadores
-- Motor DC 24V: función
-- Lámpara tricolor: función de señalización (verde/amarillo/rojo)
-- Relés: interfaz LOGO -> motor
+* **Motor DC $24 \text{ V}$**: Proporciona el torque necesario para enrollar la cortina con una carga de barras de $35 \text{ kg}$ cada $2 \text{ m}$ de ancho.
+* **Lámpara bicolor/Torreta**: Señalización visual; Verde (**Q4**) para sistema listo y Roja (**Q3**) para motor en movimiento o alarmas.
+* **Relés de potencia**: Interfaz de aislamiento entre las salidas del LOGO y el motor para manejar la corriente de carga del sistema físico.
 
 ### Controlador
-- Siemens LOGO (modelo: ___)
+* **Siemens LOGO! (24RCE)**: Controlador lógico programable alimentado a $24 \text{ VDC}$ mediante una fuente de $350 \text{ W}$.
+
 
 ## 6) Mapeo de Entradas/Salidas (I/O)
-- I1: Sensor ____ (tipo ____)
-- I2: ...
-- Q1: Relé motor DC 24V
-- Q2: Luz verde
-- Q3: Luz amarilla
-- Q4: Luz roja
+Configuración lógica implementada en **LOGO! Soft Comfort**:
+
+| Entrada | Componente | Función |
+| :--- | :--- | :--- |
+| **I1** | Sensor Capacitivo | Presencia de material (Hule). |
+| **I2** | Sensor Inductivo | Detección de barras metálicas. |
+| **I3** | Sensor Óptico | Seguridad contra obstáculos. |
+| **I4** | Sensor Magnético | Límite ARRIBA (Apertura total). |
+| **I5** | Sensor Magnético | Límite MEDIO (Cambio de rampa). |
+| **I6** | Sensor Magnético | Límite ABAJO (Cierre total). |
+
+| Salida | Componente | Acción |
+| :--- | :--- | :--- |
+| **Q1** | Relé Motor | Descenso de la cortina. |
+| **Q2** | Relé Motor | Ascenso de la cortina. |
+| **Q3** | Luz Roja | Alarma / Movimiento detectado. |
+| **Q4** | Luz Verde | Sistema en reposo / Ciclo terminado. |
+
 
 ## 7) Lógica de control (resumen)
-(Describe en bullets el comportamiento: modos, condiciones, secuencias, paros.)
+* **Ciclo Automático**: Se activa una memoria interna mediante bloques **RS (B008, B009)** que mantienen el giro del motor hasta alcanzar los sensores de límite físico.
+* **Gestión de Velocidad**: La cortina inicia en velocidad alta; al detectar el sensor medio (**I5**), la lógica permite conmutar a velocidad baja para un frenado suave en los extremos.
+* **Temporización de Seguridad**: Al llegar al límite superior (**I4**), el bloque **B006** genera un retardo de $10 \text{ s}$ antes de permitir el descenso automático.
+* **Interbloqueo de Seguridad**: Las compuertas **OR (B001)** y **AND (B012)** aseguran que si los sensores **I2** o **I3** detectan un obstáculo durante la bajada, el motor se detenga e invierta el sentido inmediatamente.
+
 
 ## 8) Evidencias y pruebas
 - Semana 1: 
