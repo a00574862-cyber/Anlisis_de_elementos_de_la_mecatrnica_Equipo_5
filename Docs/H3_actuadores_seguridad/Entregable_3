@@ -1,6 +1,0 @@
-| Pin | Tipo | Función / Actuador | Conexión |
-| :---: | :---: | :--- | :--- |
-| **Q1** | Digital | Relé a Fuente | Fuente 24V |
-| **Q2** | Digital | Relé a Fuente | Fuente 24V |
-| **Q3** | Digital | Luz Roja (Lámpara) | Conexión Q4 |
-| **Q4** | Digital | Luz Verde (Lámpara) | Conexión C8 |
