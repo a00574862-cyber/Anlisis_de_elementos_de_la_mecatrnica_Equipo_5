@@ -7,6 +7,7 @@ Explica la secuencia o lógica implementada en LOGO.
 
 ##Entradas (Inputs)
 | Pin | Tipo | Función / Sensor | Identificador |
+| :---: | :---: | :--- | :---: |
 | **I1** | Digital | Sensor Capacitivo | **S1** |
 | **I2** | Digital | Sensor Inductivo | **S2** |
 | **I3** | Digital | Sensor Óptico | **S3** |
