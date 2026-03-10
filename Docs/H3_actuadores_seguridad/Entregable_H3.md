@@ -6,7 +6,7 @@ Para implementar la logica de control en LOGO se utilizaron relevadores para ges
 
 ## Asignación de Entradas y Salidas (I/O)
 
- Entradas (Inputs)
+ ***Entradas (Inputs)***
 | Pin | Tipo | Función / Sensor | Identificador |
 | :---: | :---: | :--- | :---: |
 | **I1** | Digital | Sensor Capacitivo | **S1** |
@@ -18,7 +18,7 @@ Para implementar la logica de control en LOGO se utilizaron relevadores para ges
 
 ---
 
- Salidas (Outputs)
+ ***Salidas (Outputs)***
 | Pin | Tipo | Función / Actuador | Conexión |
 | :---: | :---: | :--- | :--- |
 | **Q1** | Digital | Relé a Fuente | Fuente 24V |
@@ -26,7 +26,8 @@ Para implementar la logica de control en LOGO se utilizaron relevadores para ges
 | **Q3** | Digital | Luz Roja (Lámpara) | Conexión Q4 |
 | **Q4** | Digital | Luz Verde (Lámpara) | Conexión C8 |
 
-
+---
+ ***Pruebas***
 
 | Prueba | Resultado esperado | Resultado obtenido |
 | :--- | :--- | :--- |
