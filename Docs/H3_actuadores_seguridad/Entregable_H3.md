@@ -1,12 +1,12 @@
 # Hito 3 – Control e Integración
 
 ## Descripción de la lógica de control
-Para implementar la logica de control en LOGO se utilizaron relevadores para gestoniar el movimiento de ascenso y descencso de la cortina. La segudad esta en la compuerta OR (B001) que integra las señales del sensor inductivo y optico, lo que permite que cualquier deteccion de obtaculos y metales detenga el motod de bajada mediante una compuerta AND (B012) que actua como un bloqueo. Adémas el sstema emplea los sensores magneticos apra resetear los relevadores y deter la marcha al alcanzar lo esperado, también al llegar al limite superior se activa un temporizador de retardo a la conexi+on (B006) de 10 segundos, lo que nos da una espera antes de que se inicie el descenso automatico. Finalmente, la interfaz de operacion se complementa con indicadores luminosos (Luz Verde y Luz Roja) que nos avisan visualemente sobre el estado de los ciclos y las condiciones de alarma que detectan los sensores.
+Para implementar la logica de control en LOGO se utilizaron relevadores para gestoniar el movimiento de ascenso y descencso de la cortina. La segudad esta en la compuerta OR (B001) que integra las señales del sensor inductivo y optico, lo que permite que cualquier deteccion de obtaculos y metales detenga el motor de bajada mediante una compuerta AND (B012) que actua como un bloqueo. Adémas el sstema emplea los sensores magneticos apra resetear los relevadores y deter la marcha al alcanzar lo esperado, también al llegar al limite superior se activa un temporizador de retardo a la conexi+on (B006) de 10 segundos, lo que nos da una espera antes de que se inicie el descenso automatico. Finalmente, la interfaz de operacion se complementa con indicadores luminosos (Luz Verde y Luz Roja) que nos avisan visualemente sobre el estado de los ciclos y las condiciones de alarma que detectan los sensores.
 
 
 ## Asignación de Entradas y Salidas (I/O)
 
-##Entradas (Inputs)
+ Entradas (Inputs)
 | Pin | Tipo | Función / Sensor | Identificador |
 | :---: | :---: | :--- | :---: |
 | **I1** | Digital | Sensor Capacitivo | **S1** |
@@ -18,7 +18,7 @@ Para implementar la logica de control en LOGO se utilizaron relevadores para ges
 
 ---
 
-###Salidas (Outputs)
+ Salidas (Outputs)
 | Pin | Tipo | Función / Actuador | Conexión |
 | :---: | :---: | :--- | :--- |
 | **Q1** | Digital | Relé a Fuente | Fuente 24V |
@@ -27,9 +27,16 @@ Para implementar la logica de control en LOGO se utilizaron relevadores para ges
 | **Q4** | Digital | Luz Verde (Lámpara) | Conexión C8 |
 
 
+
 | Prueba | Resultado esperado | Resultado obtenido |
+| Ascenso | El motor de subir se enciende | Fue el correcto y logramos hacer que el motor encendiera. | 
+| Timpo de Espera | El motor de apaga e inmediatamente esperamos 10 segundos por el retroceso | Fue el correcto, se espero el tiempo y se volvio a encender con el otro rele (para bajar) | 
+| Descenso | El segundo rele activa el motor para que comience a bajar | El rele se activa y e motor comienza a bajar. | 
+| Luz verde prende | La luz verde se enciende cuando el motor se apaga | El resultado fue el esperado y se encendia la Luz verde cuando el motor se detenia. | 
+| Luz roja enciende | La luz roja se enciende cuando el motor esta encendido | El resultado fue el esperado y se encendia la Luz roja cuando el motor estaba en movimiento. | 
 |------|------------------|------------------|
 
 
 ## Ajustes realizados
 Describe cambios hechos tras las pruebas.
+No realizamos muchos ajustes, solo poner en el programa de LOGO las entradas que nosotros teniamos para que todo funcionara correctamente y no estubiera invertido. Además de que en nuestro programa agregamos algunos "NOT" ya que nuestros sensores estaban invertidos.
