@@ -1,5 +1,3 @@
-* Aqui va maquina_de_estados.md
-
 # Hito 4 – Validación Funcional y HMI
 
 ## Objetivo del hito
