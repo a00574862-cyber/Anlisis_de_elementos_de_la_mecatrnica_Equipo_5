@@ -22,4 +22,5 @@ Marca una opción:
 ## 2️⃣ Objetivo del uso de IA
 Describe **para qué** se utilizó la IA (no qué herramienta).
 
-**Descripción del objetivo:**
+Organizar las tablas de validación de sensores y actuadores,
+redactar de manera técnica y formal la descripción de la lógica del controlador LOGO
