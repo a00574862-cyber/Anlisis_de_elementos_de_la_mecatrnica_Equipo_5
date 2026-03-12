@@ -13,7 +13,7 @@ Marca el estado actual del sistema:
 - [ ] No funcional
 - [ ] Parcialmente funcional
 - [ ] Funcional con fallas
-- [/] Funcional estable
+- [x] Funcional estable
 
 ---
 
