@@ -43,3 +43,6 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 Necesito ayuda para completar un reporte de validación funcional en Markdown para
 GitHub.
+
+---
+
