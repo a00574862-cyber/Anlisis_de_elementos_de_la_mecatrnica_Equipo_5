@@ -6,7 +6,7 @@ Montaje y funcionamiento del sistema / Human - Machine Interface.
 ## Actividades realizadas
 Implementamos la programación lógica de la cortina en el LOGO Siemens V8, la cual fue probada y modificada hasta obtener una versión final.
 Diseñamos la pantalla Human Machine Interface que posteriormente será implementada para el control del sistema.
-Realizamos el motaje y acomodamos todos los elementos del sistema en el espacio final de prototipado para finalmente ejecutar las pruebas del funcionamiento de la cortina y documentar los resultados.
+Realizamos el montaje y acomodamos todos los elementos del sistema en el espacio final de prototipado para finalmente ejecutar las pruebas del funcionamiento de la cortina y documentar los resultados.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
