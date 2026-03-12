@@ -18,10 +18,10 @@ Marca el estado actual del sistema:
 ## Secuencia de operación validada
 Describe paso a paso cómo opera el sistema completo:
 
-1. **El sensor inductivo (I2) detecta presencia de metal → El sistema se activa y enciende lámpara VERDE (Q4)**
-2. **La cortina comienza a BAJAR activando el motor (Q1) hasta llegar al sensor magnético ABAJO (I6)**
+1. **El sensor inductivo (I2) detecta presencia de metal → El sistema se activa y enciende lámpara ROJA (Q3)**
+2. **La cortina comienza a BAJAR activando el motor (Q1) hasta llegar al sensor magnético ABAJO (I6) y se enciende lámpara VERDE (Q4)**
 3. **Si el sensor capacitivo (I1) óptico (I3) detectan obstrucción → Se activa lámpara ROJA (Q3) y el motor se DETIENE**
-4. **Al llegar al sensor ABAJO (I6), el motor se invierte (Q2) y la cortina SUBE hasta el sensor ARRIBA (I4)**
+4. **Al llegar al sensor ABAJO (I6), el motor se invierte (Q2) después de 10 segundos de espera y la cortina SUBE hasta el sensor ARRIBA (I4) y sistema se reinicia.**
 
 ---
 
