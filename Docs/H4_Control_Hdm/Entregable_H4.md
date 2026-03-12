@@ -108,7 +108,7 @@ Indica qué está listo y qué falta por afinar:
 - [ ] HMI
 - [x] Cableado
 - [x] Seguridad
-- [ ] Evidencias (video/fotos)
+- [x] Evidencias (video/fotos)
 
 ---
 
