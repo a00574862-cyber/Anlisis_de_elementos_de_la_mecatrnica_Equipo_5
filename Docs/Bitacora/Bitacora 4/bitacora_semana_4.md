@@ -4,17 +4,16 @@
 Montaje y funcionamiento del sistema / Human - Machine Interface.
 
 ## Actividades realizadas
-Implementar la programación lógica final de la cortina en el LOGO Siemens V8.
-Diseñar la pantalla Human Machine Interface para el control del sistema.
-Montaje y acomodo de todos los elementos del sistema en el espacio final de prototipado.
-Ejecutar pruebas del funcionamiento de la cortina y documentación de resultados reales.
+Implementamos la programación lógica de la cortina en el LOGO Siemens V8, la cual fue probada y modificada hasta obtener una versión final.
+Diseñamos la pantalla Human Machine Interface que posteriormente será implementada para el control del sistema.
+Realizamos el motaje y acomodamos todos los elementos del sistema en el espacio final de prototipado para finalmente ejecutar las pruebas del funcionamiento de la cortina y documentar los resultados.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 | :--- | :--- | :--- |
 | **Acomodo de tabla de componentes** | Acomodo horizontal o vertical. | Se eligió un acomodo vertical con aseguramiento en el centro para evitar el enredo entre cables y un punto de equilibrio. |
 | **Menor cantidad de imánes** | Acercamiento de sensor vs colocamiento imánes. | Se quitaron 6 de los imánes ya que el peso impedía el levantamiento de la cortina (falta de torque en el motor) y se colocó el sensor magnético más cerca de los imánes restantes para facilitar su detección. |
-| **Cambio de polaridad en el motor** | Cambio  de colocación de cortina. | Al notar que la orientación de rotación no favorecia el acomodo en el que previamente instalamos la cortina cambiamos la polaridad desde los relés para evitar dificultades para la desinstalación de la cortina.
+| **Cambio de polaridad en el motor** | Cambio  de colocación de cortina. | Al notar que la orientación de rotación no favorecia el acomodo en el que previamente instalamos la cortina cambiamos la polaridad desde los relés para evitar dificultades en la desinstalación de la cortina.
 
 ## Problema técnico encontrado
 Al activarse el sensor capacitivo no cumplía la función de detener la cortina, esto a pesar de que funcionaba correctamente, por lo tanto se identificó un problema de programación en la relación del sensor con el mecanismo de la cortina.
