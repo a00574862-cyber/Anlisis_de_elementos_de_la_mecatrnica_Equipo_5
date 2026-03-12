@@ -24,3 +24,22 @@ Describe **para qué** se utilizó la IA (no qué herramienta).
 
 Organizar las tablas de validación de sensores y actuadores,
 redactar de manera técnica y formal la descripción de la lógica del controlador LOGO
+
+
+---
+
+## 3️⃣ Herramienta(s) de IA utilizada(s)
+Marca las que apliquen:
+
+- ⬜ ChatGPT
+- ⬜ Copilot
+- ⬜ Otra (especificar): Qwen 3.5 - Plus
+
+---
+
+## 4️⃣ Prompts relevantes utilizados
+Copia **solo los prompts más importantes** (no todos).
+
+**Prompt 1:**
+Necesito ayuda para completar un reporte de validación funcional en Markdown para
+GitHub.
