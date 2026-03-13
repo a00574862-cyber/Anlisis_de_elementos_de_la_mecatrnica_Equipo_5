@@ -51,29 +51,33 @@ El sistema de automatización de cortina industrial consta de los siguientes com
 
 <div align="center">
 
-![Prototipo completo](Imagenes/Proto_1)
+![Vista general del prototipo](Imagenes/Proto_1.jpeg)
 
-*Figura 1: Vista general del sistema de cortina automatizada*
-
-<br>
-
-![Panel de control](Imagenes/Proto_2)
-
-*Figura 2: Conexión del Siemens LOGO! y cableado*
+*Figura 1: Vista completa del sistema de cortina automatizada*
 
 <br>
 
-![Sensores](Imagenes/Proto_3)
+![Panel de control y cableado](Imagenes/Proto_2.jpeg)
 
-*Figura 3: Sensores instalados en el prototipo*
+*Figura 2: Conexión del Siemens LOGO! y distribución de cableado*
 
 <br>
 
-![Funcionamiento](Imagenes/Proto_4)
+![Sensores instalados](Imagenes/Proto_3.jpeg)
 
-*Figura 4: Prototipo en operación*
+*Figura 3: Sensores capacitivo, inductivo, óptico y magnéticos*
+
+<br>
+
+![Sistema en funcionamiento](Imagenes/Proto_4.jpeg)
+
+*Figura 4: Prototipo en operación con indicadores luminosos*
 
 </div>
+
+
+
+
 
 ### Video:
 
