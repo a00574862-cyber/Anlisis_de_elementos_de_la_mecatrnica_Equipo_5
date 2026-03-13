@@ -156,7 +156,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 | Andrés Alejandro Sánchez Rábago  | A00574862 | Sensores y cableado |@a00574862-cyber |
 | Karol Daniel Cabrera Ramírez | A00574676 | Programación LOGO, integración | @KarolDCabrera |
 | Carlos Tadeo Garay Durá | A00574676 | Actuadores y pruebas | @TadeoGadu |
-| Alexa Ortiz Saldaña | A00573382 | Controlador de Proyectos | |
+| Alexa Ortiz Saldaña | A00573382 | Controlador de Proyectos | @ibukiaos |
 
 ---
 
