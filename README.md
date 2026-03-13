@@ -151,8 +151,8 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 **Integrantes del proyecto:**
 
-| Nombre | Matrícula | Responsabilidades |
-|--------|-----------|-------------------|
+| Nombre | Matrícula | Responsabilidades | @ | 
+|--------|-----------|-------------------|---|
 | Andrés Alejandro Sánchez Rábago  | A00574862 | Sensores y cableado | |
 | Karol Daniel Cabrera Ramírez | A00574676 | Programación LOGO, integración | |
 | Carlos Tadeo Garay Durá | A00574676 | Actuadores y pruebas | |
