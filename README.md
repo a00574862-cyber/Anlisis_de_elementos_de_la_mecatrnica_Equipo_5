@@ -133,21 +133,19 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Video demo
+## ## Video
 
-📹 **Demostración del sistema completo:**
+📹 **Demostración del sistema de cortina automatizada:**
 
-[![Video Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtube.com/link-al-video)
+[![Video Demo](https://img.youtube.com/vi/jsxeerO_dHk/maxresdefault.jpg)](https://youtu.be/jsxeerO_dHk?si=4y5mCOTqE1LufV9U)
 
-*Reemplazar con el link real del video de demostración*
+**▶️ Haz clic en la imagen para ver el video**
 
 **Contenido del video:**
-- Secuencia completa de operación
-- Pruebas de sensores
-- Sistema de seguridad en acción
-- Indicadores luminosos
-
----
+- ✅ Secuencia completa de operación
+- ✅ Pruebas de todos los sensores
+- ✅ Sistema de seguridad en acción
+- ✅ Indicadores luminosos funcionando
 
 ## ## Equipo
 
