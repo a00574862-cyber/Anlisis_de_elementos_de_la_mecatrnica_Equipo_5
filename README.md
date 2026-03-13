@@ -1,3 +1,45 @@
+# Proyecto Mecatrónico - MR2022
+## Automatización de Cortina Industrial con Sistema de Seguridad
+
+**Equipo 5** | Análisis de Elementos de la Mecatrónica
+
+---
+
+## ## Problema
+
+Una compañía de fabricación de cortinas industriales requiere automatizar el manejo de cortinas de 3-7 metros de largo y 3-4 metros de ancho, con barras metálicas de 35kg para tensión. Se necesita un sistema que:
+- Permita el ascenso y descenso automático
+- Detecte obstáculos para evitar accidentes
+- Controle límites de posición
+- Garantice seguridad para personas y vehículos
+
+**Prototipo:** 1m ancho x 2m largo con barra metálica de 1-2kg
+
+---
+
+## ## Arquitectura del sistema
+![image alt](https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/92daf150ad46942228aae8dd43e4ab75c1ef36dc/Evidence/Imagenes/Software_LOGO_2.0.jpeg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Anlisis-de-elementos-de-la-mecatronica-Equipo-5
 
 # MR2022 - Proyecto Integrador (Siemens LOGO)
