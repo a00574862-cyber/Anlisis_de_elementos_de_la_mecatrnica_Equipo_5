@@ -5,7 +5,7 @@
 
 ---
 
-## ## Problema
+##Problema
 
 Una compañía de fabricación de cortinas industriales requiere automatizar el manejo de cortinas de 3-7 metros de largo y 3-4 metros de ancho, con barras metálicas de 35kg para tensión. Se necesita un sistema que:
 - Permita el ascenso y descenso automático
@@ -17,7 +17,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Arquitectura del sistema
+## Arquitectura del sistema
 ![image alt](https://github.com/a00574862-cyber/Anlisis_de_elementos_de_la_mecatrnica_Equipo_5/blob/92daf150ad46942228aae8dd43e4ab75c1ef36dc/Evidence/Imagenes/Software_LOGO_2.0.jpeg)
 
 
@@ -29,7 +29,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Componentes utilizados
+## Componentes utilizados
 
 ### Sensores (Entradas)
 | Sensor | Tipo | Entrada | Función |
@@ -56,7 +56,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Lógica de control
+## Lógica de control
 
 ### Secuencia de Operación
 
@@ -88,7 +88,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Resultados de pruebas
+## Resultados de pruebas
 
 ### Validación de Sensores
 
@@ -122,7 +122,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Fallas detectadas y ajustes
+## Fallas detectadas y ajustes
 
 | Falla | Causa | Ajuste realizado | Resultado |
 |-------|-------|------------------|-----------|
@@ -133,7 +133,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Video
+## Video
 
 📹 **Demostración del sistema de cortina automatizada:**
 
@@ -147,7 +147,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 - ✅ Sistema de seguridad en acción
 - ✅ Indicadores de seguridad 
 
-## ## Equipo
+## Equipo
 
 **Integrantes del proyecto:**
 
@@ -160,7 +160,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Estado del proyecto
+## Estado del proyecto
 
 **✅ Sistema FUNCIONAL ESTABLE**
 
@@ -173,7 +173,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ---
 
-## ## Reflexión del equipo
+## Reflexión del equipo
 
 **¿Qué fue lo más crítico de esta etapa?**
 
@@ -185,7 +185,7 @@ Una vez ajustadas las distancias de los sensores (5mm) y corregida la programaci
 
 ---
 
-## ## Repositorio
+## Repositorio
 
 📂 **Estructura del proyecto:**
 - `/Docs/H1_requisitos` - Análisis y requerimientos
