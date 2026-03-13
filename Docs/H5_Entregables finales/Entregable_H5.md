@@ -94,18 +94,6 @@ Aprendimos que un sistema mecatrónico funcional requiere la perfecta integraci�
 #### 2. **Importancia de la calibración**
 Uno de los mayores desafíos fue calibrar correctamente los sensores magnéticos. Inicialmente los teníamos a más de 1.5cm de distancia y no detectaban consistentemente. Al reducir la distancia a **5mm**, el funcionamiento fue óptimo. Esto nos enseñó que los detalles prácticos son tan importantes como el diseño teórico.
 
-#### 3. **Programación de lógica industrial**
-El uso de **Siemens LOGO!** nos permitió comprender la programación de controladores industriales mediante bloques funcionales. Aprendimos a implementar:
-- Compuertas lógicas (AND, OR)
-- Flip-flops RS para memoria de estado
-- Temporizadores para secuencias automáticas
-- Interlocks de seguridad
-
-#### 4. **Seguridad como prioridad**
-Implementar **interlocks y paros de emergencia** no es opcional en sistemas industriales. Aprendimos a diseñar con seguridad desde el inicio, no como añadido posterior.
-
-#### 5. **Trabajo en equipo y resolución de problemas**
+#### 3. **Trabajo en equipo y resolución de problemas**
 Cada miembro del equipo aportó en diferentes áreas (sensores, actuadores, programación, pruebas). La **comunicación efectiva** y la **división de responsabilidades** fueron clave para el éxito.
 
-#### 6. **Metodología de prueba y error**
-El proceso de debugging fue iterativo:
