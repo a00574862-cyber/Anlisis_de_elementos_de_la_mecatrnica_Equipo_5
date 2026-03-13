@@ -145,7 +145,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 - ✅ Secuencia completa de operación
 - ✅ Pruebas de todos los sensores
 - ✅ Sistema de seguridad en acción
-- ✅ Indicadores luminosos funcionando
+- ✅ Indicadores de seguridad 
 
 ## ## Equipo
 
@@ -153,11 +153,10 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 | Nombre | Matrícula | Responsabilidades |
 |--------|-----------|-------------------|
-| [Nombre 1] | A00574862 | Programación LOGO, integración |
-| [Nombre 2] | [Matrícula] | Sensores y cableado |
-| [Nombre 3] | [Matrícula] | Actuadores y pruebas |
-
-*Agregar información completa del equipo*
+| [Andrés Alejandro Sánchez Rábago ] | A00574862 | Sensores y cableado |
+| [Karol Daniel Cabrera Ramírez] | [A00574676] | Programación LOGO, integración |
+| [Carlos Tadeo Garay Durá] | [A00574676] | Actuadores y pruebas |
+| [Alexa Ortiz Saldaña] | [A00573382] | Controlador de Proyectos |
 
 ---
 
@@ -171,7 +170,6 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 - [x] Sistema de seguridad implementado
 - [x] Interlocks configurados
 - [x] Evidencias documentadas
-- [ ] HMI (En desarrollo)
 
 ---
 
