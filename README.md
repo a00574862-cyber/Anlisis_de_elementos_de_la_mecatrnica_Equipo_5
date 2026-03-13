@@ -204,25 +204,3 @@ Una vez ajustadas las distancias de los sensores (5mm) y corregida la programaci
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 9) Cómo probar (pasos rápidos)
-1) ...
-2) ...
-3) ...
