@@ -51,7 +51,7 @@ Una compañía de fabricación de cortinas industriales requiere automatizar el 
 
 ### Controlador y Alimentación
 - **PLC:** Siemens LOGO! 12/24 RCE V8
-- **Programación:** LOGO!Soft Comfort V8.0
+- **Programación:** LOGO!Soft Comfort V8.3
 - **Fuente:** 24V DC / 14.5A / 350W
 
 ---
