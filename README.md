@@ -5,7 +5,7 @@
 
 ---
 
-##Problema
+## Problema
 
 Una compañía de fabricación de cortinas industriales requiere automatizar el manejo de cortinas de 3-7 metros de largo y 3-4 metros de ancho, con barras metálicas de 35kg para tensión. Se necesita un sistema que:
 - Permita el ascenso y descenso automático
