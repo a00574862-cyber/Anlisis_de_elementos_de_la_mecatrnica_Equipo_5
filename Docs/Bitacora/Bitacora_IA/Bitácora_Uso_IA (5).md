@@ -34,9 +34,9 @@ Describe **para qué** se utilizó la IA (no qué herramienta).
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- ✅ ChatGPT  
+- ⬜ ChatGPT  
 - ⬜ Copilot  
-- ⬜ Otra (especificar): Qwen
+- ✅ Otra (especificar): Qwen
 
 ---
 
