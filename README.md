@@ -192,7 +192,7 @@ Una vez ajustadas las distancias de los sensores (5mm) y corregida la programaci
 - `/Docs/H2_sensores` - Selección de componentes
 - `/Docs/H3_actuadores_seguridad` - Control e integración
 - `/Docs/H4_Control_Hdm` - Validación funcional
-- `/Docs/Final` - Entregables finales
+- `/Docs/H5_Entregables finales` - Entregables finales
 
 ---
 
